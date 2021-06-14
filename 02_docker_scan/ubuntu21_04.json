@@ -1,0 +1,3836 @@
+{
+  "vulnerabilities": [
+    {
+      "title": "Improper Input Validation",
+      "credit": [
+        ""
+      ],
+      "packageName": "coreutils",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `coreutils` package. </i>\n\nchroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal&#39;s input buffer.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `coreutils`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2016-2781)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [OSS security Advisory](http://www.openwall.com/lists/oss-security/2016/02/28/2)\n- [OSS security Advisory](http://www.openwall.com/lists/oss-security/2016/02/28/3)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2016-2781"
+        ],
+        "CWE": [
+          "CWE-20"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 6.5,
+      "CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2016-2781"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "OSS security Advisory",
+          "url": "http://www.openwall.com/lists/oss-security/2016/02/28/2"
+        },
+        {
+          "title": "OSS security Advisory",
+          "url": "http://www.openwall.com/lists/oss-security/2016/02/28/3"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-2781"
+        }
+      ],
+      "creationTime": "2021-04-27T05:24:36.907450Z",
+      "modificationTime": "2021-05-25T15:45:29.041373Z",
+      "publicationTime": "2017-02-07T15:59:00Z",
+      "disclosureTime": "2017-02-07T15:59:00Z",
+      "id": "SNYK-UBUNTU2104-COREUTILS-1274925",
+      "nvdSeverity": "medium",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "coreutils@8.32-4ubuntu2"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "coreutils",
+      "version": "8.32-4ubuntu2"
+    },
+    {
+      "title": "Reachable Assertion",
+      "credit": [
+        ""
+      ],
+      "packageName": "glibc",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `glibc` package. </i>\n\nThe iconv function in the GNU C Library (aka glibc or libc6) 2.30 to 2.32, when converting UCS4 text containing an irreversible character, fails an assertion in the code path and aborts the program, potentially resulting in a denial of service.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `glibc`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-29562)\n- [CONFIRM](https://security.netapp.com/advisory/ntap-20210122-0004/)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TVCUNLQ3HXGS4VPUQKWTJGRAW2KTFGXS/)\n- [GENTOO](https://security.gentoo.org/glsa/202101-20)\n- [MISC](https://sourceware.org/bugzilla/show_bug.cgi?id=26923)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2020-29562"
+        ],
+        "CWE": [
+          "CWE-617"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 4.8,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-29562"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://security.netapp.com/advisory/ntap-20210122-0004/"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TVCUNLQ3HXGS4VPUQKWTJGRAW2KTFGXS/"
+        },
+        {
+          "title": "GENTOO",
+          "url": "https://security.gentoo.org/glsa/202101-20"
+        },
+        {
+          "title": "MISC",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=26923"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        }
+      ],
+      "creationTime": "2021-04-26T16:23:23.945423Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2020-12-05T03:30:04.223598Z",
+      "disclosureTime": "2020-12-04T07:15:00Z",
+      "id": "SNYK-UBUNTU2104-GLIBC-1258437",
+      "nvdSeverity": "medium",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "glibc/libc-bin@2.33-0ubuntu5"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "glibc/libc-bin",
+      "version": "2.33-0ubuntu5"
+    },
+    {
+      "title": "Loop with Unreachable Exit Condition ('Infinite Loop')",
+      "credit": [
+        ""
+      ],
+      "packageName": "glibc",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `glibc` package. </i>\n\nThe iconv function in the GNU C Library (aka glibc or libc6) 2.32 and earlier, when processing invalid multi-byte input sequences in IBM1364, IBM1371, IBM1388, IBM1390, and IBM1399 encodings, fails to advance the input state, which could lead to an infinite loop in applications, resulting in a denial of service, a different vulnerability from CVE-2016-10228.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `glibc`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-27618)\n- [CONFIRM](https://security.netapp.com/advisory/ntap-20210401-0006/)\n- [MISC](https://sourceware.org/bugzilla/show_bug.cgi?id=19519#c21)\n- [MISC](https://sourceware.org/bugzilla/show_bug.cgi?id=26224)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2020-27618"
+        ],
+        "CWE": [
+          "CWE-835"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 5.5,
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-27618"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://security.netapp.com/advisory/ntap-20210401-0006/"
+        },
+        {
+          "title": "MISC",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=19519%23c21"
+        },
+        {
+          "title": "MISC",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=26224"
+        }
+      ],
+      "creationTime": "2021-04-26T16:26:40.618432Z",
+      "modificationTime": "2021-05-25T15:37:22.577598Z",
+      "publicationTime": "2021-01-06T03:30:08.369124Z",
+      "disclosureTime": "2021-02-26T23:15:00Z",
+      "id": "SNYK-UBUNTU2104-GLIBC-1259000",
+      "nvdSeverity": "medium",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "glibc/libc-bin@2.33-0ubuntu5"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "glibc/libc-bin",
+      "version": "2.33-0ubuntu5"
+    },
+    {
+      "title": "Out-of-bounds Read",
+      "credit": [
+        ""
+      ],
+      "packageName": "glibc",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `glibc` package. </i>\n\nThe iconv feature in the GNU C Library (aka glibc or libc6) through 2.32, when processing invalid multi-byte input sequences in the EUC-KR encoding, may have a buffer over-read.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `glibc`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-25013)\n- [CONFIRM](https://security.netapp.com/advisory/ntap-20210205-0004/)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4Y6TX47P47KABSFOL26FLDNVCWXDKDEZ/)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TVCUNLQ3HXGS4VPUQKWTJGRAW2KTFGXS/)\n- [MISC](https://sourceware.org/bugzilla/show_bug.cgi?id=24973)\n- [MISC](https://sourceware.org/git/?p=glibc.git;a=commit;h=ee7a3144c9922808181009b7b3e50e852fb4999b)\n- [MLIST](https://lists.apache.org/thread.html/r32d767ac804e9b8aad4355bb85960a6a1385eab7afff549a5e98660f@%3Cjira.kafka.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r448bb851cc8e6e3f93f3c28c70032b37062625d81214744474ac49e7@%3Cdev.kafka.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r4806a391091e082bdea17266452ca656ebc176e51bb3932733b3a0a2@%3Cjira.kafka.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r499e4f96d0b5109ef083f2feccd33c51650c1b7d7068aa3bd47efca9@%3Cjira.kafka.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r5af4430421bb6f9973294691a7904bbd260937e9eef96b20556f43ff@%3Cjira.kafka.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r750eee18542bc02bd8350861c424ee60a9b9b225568fa09436a37ece@%3Cissues.zookeeper.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r7a2e94adfe0a2f0a1d42e4927e8c32ecac97d37db9cb68095fe9ddbc@%3Cdev.zookeeper.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rd2354f9ccce41e494fbadcbc5ad87218de6ec0fff8a7b54c8462226c@%3Cissues.zookeeper.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2019-25013"
+        ],
+        "CWE": [
+          "CWE-125"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 5.9,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-25013"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://security.netapp.com/advisory/ntap-20210205-0004/"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4Y6TX47P47KABSFOL26FLDNVCWXDKDEZ/"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TVCUNLQ3HXGS4VPUQKWTJGRAW2KTFGXS/"
+        },
+        {
+          "title": "MISC",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=24973"
+        },
+        {
+          "title": "MISC",
+          "url": "https://sourceware.org/git/?p=glibc.git%3Ba=commit%3Bh=ee7a3144c9922808181009b7b3e50e852fb4999b"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r32d767ac804e9b8aad4355bb85960a6a1385eab7afff549a5e98660f@%3Cjira.kafka.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r448bb851cc8e6e3f93f3c28c70032b37062625d81214744474ac49e7@%3Cdev.kafka.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r4806a391091e082bdea17266452ca656ebc176e51bb3932733b3a0a2@%3Cjira.kafka.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r499e4f96d0b5109ef083f2feccd33c51650c1b7d7068aa3bd47efca9@%3Cjira.kafka.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r5af4430421bb6f9973294691a7904bbd260937e9eef96b20556f43ff@%3Cjira.kafka.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r750eee18542bc02bd8350861c424ee60a9b9b225568fa09436a37ece@%3Cissues.zookeeper.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r7a2e94adfe0a2f0a1d42e4927e8c32ecac97d37db9cb68095fe9ddbc@%3Cdev.zookeeper.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rd2354f9ccce41e494fbadcbc5ad87218de6ec0fff8a7b54c8462226c@%3Cissues.zookeeper.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        }
+      ],
+      "creationTime": "2021-04-27T03:33:32.856232Z",
+      "modificationTime": "2021-05-25T15:38:41.606813Z",
+      "publicationTime": "2021-01-06T03:30:11.181511Z",
+      "disclosureTime": "2021-01-04T18:15:00Z",
+      "id": "SNYK-UBUNTU2104-GLIBC-1264849",
+      "nvdSeverity": "medium",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "glibc/libc-bin@2.33-0ubuntu5"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "glibc/libc-bin",
+      "version": "2.33-0ubuntu5"
+    },
+    {
+      "title": "Improper Input Validation",
+      "credit": [
+        ""
+      ],
+      "packageName": "glibc",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `glibc` package. </i>\n\nThe iconv program in the GNU C Library (aka glibc or libc6) 2.31 and earlier, when invoked with multiple suffixes in the destination encoding (TRANSLATE or IGNORE) along with the -c option, enters an infinite loop when processing invalid multi-byte input sequences, leading to a denial of service.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `glibc`.\n## References\n- [CONFIRM](https://sourceware.org/bugzilla/show_bug.cgi?id=19519#c21)\n- [CONFIRM](https://sourceware.org/bugzilla/show_bug.cgi?id=26224)\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2016-10228)\n- [GENTOO](https://security.gentoo.org/glsa/202101-20)\n- [https://sourceware.org/bugzilla/show_bug.cgi?id=19519](https://sourceware.org/bugzilla/show_bug.cgi?id=19519)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [OSS security Advisory](http://openwall.com/lists/oss-security/2017/03/01/10)\n- [Security Focus](http://www.securityfocus.com/bid/96525)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-10228)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2016-10228"
+        ],
+        "CWE": [
+          "CWE-20"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 5.9,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "CONFIRM",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=19519%23c21"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=26224"
+        },
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2016-10228"
+        },
+        {
+          "title": "GENTOO",
+          "url": "https://security.gentoo.org/glsa/202101-20"
+        },
+        {
+          "title": "https://sourceware.org/bugzilla/show_bug.cgi?id=19519",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=19519"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "OSS security Advisory",
+          "url": "http://openwall.com/lists/oss-security/2017/03/01/10"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/96525"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-10228"
+        }
+      ],
+      "creationTime": "2021-04-27T05:26:04.730140Z",
+      "modificationTime": "2021-05-25T15:46:05.603893Z",
+      "publicationTime": "2017-03-02T01:59:00Z",
+      "disclosureTime": "2017-03-02T01:59:00Z",
+      "id": "SNYK-UBUNTU2104-GLIBC-1275023",
+      "nvdSeverity": "medium",
+      "relativeImportance": "negligible",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "glibc/libc-bin@2.33-0ubuntu5"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "glibc/libc-bin",
+      "version": "2.33-0ubuntu5"
+    },
+    {
+      "title": "Reachable Assertion",
+      "credit": [
+        ""
+      ],
+      "packageName": "glibc",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `glibc` package. </i>\n\nThe iconv function in the GNU C Library (aka glibc or libc6) 2.30 to 2.32, when converting UCS4 text containing an irreversible character, fails an assertion in the code path and aborts the program, potentially resulting in a denial of service.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `glibc`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-29562)\n- [CONFIRM](https://security.netapp.com/advisory/ntap-20210122-0004/)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TVCUNLQ3HXGS4VPUQKWTJGRAW2KTFGXS/)\n- [GENTOO](https://security.gentoo.org/glsa/202101-20)\n- [MISC](https://sourceware.org/bugzilla/show_bug.cgi?id=26923)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2020-29562"
+        ],
+        "CWE": [
+          "CWE-617"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 4.8,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-29562"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://security.netapp.com/advisory/ntap-20210122-0004/"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TVCUNLQ3HXGS4VPUQKWTJGRAW2KTFGXS/"
+        },
+        {
+          "title": "GENTOO",
+          "url": "https://security.gentoo.org/glsa/202101-20"
+        },
+        {
+          "title": "MISC",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=26923"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        }
+      ],
+      "creationTime": "2021-04-26T16:23:23.945423Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2020-12-05T03:30:04.223598Z",
+      "disclosureTime": "2020-12-04T07:15:00Z",
+      "id": "SNYK-UBUNTU2104-GLIBC-1258437",
+      "nvdSeverity": "medium",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "meta-common-packages@meta",
+        "glibc/libc6@2.33-0ubuntu5"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "glibc/libc6",
+      "version": "2.33-0ubuntu5"
+    },
+    {
+      "title": "Loop with Unreachable Exit Condition ('Infinite Loop')",
+      "credit": [
+        ""
+      ],
+      "packageName": "glibc",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `glibc` package. </i>\n\nThe iconv function in the GNU C Library (aka glibc or libc6) 2.32 and earlier, when processing invalid multi-byte input sequences in IBM1364, IBM1371, IBM1388, IBM1390, and IBM1399 encodings, fails to advance the input state, which could lead to an infinite loop in applications, resulting in a denial of service, a different vulnerability from CVE-2016-10228.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `glibc`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-27618)\n- [CONFIRM](https://security.netapp.com/advisory/ntap-20210401-0006/)\n- [MISC](https://sourceware.org/bugzilla/show_bug.cgi?id=19519#c21)\n- [MISC](https://sourceware.org/bugzilla/show_bug.cgi?id=26224)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2020-27618"
+        ],
+        "CWE": [
+          "CWE-835"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 5.5,
+      "CVSSv3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-27618"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://security.netapp.com/advisory/ntap-20210401-0006/"
+        },
+        {
+          "title": "MISC",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=19519%23c21"
+        },
+        {
+          "title": "MISC",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=26224"
+        }
+      ],
+      "creationTime": "2021-04-26T16:26:40.618432Z",
+      "modificationTime": "2021-05-25T15:37:22.577598Z",
+      "publicationTime": "2021-01-06T03:30:08.369124Z",
+      "disclosureTime": "2021-02-26T23:15:00Z",
+      "id": "SNYK-UBUNTU2104-GLIBC-1259000",
+      "nvdSeverity": "medium",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "meta-common-packages@meta",
+        "glibc/libc6@2.33-0ubuntu5"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "glibc/libc6",
+      "version": "2.33-0ubuntu5"
+    },
+    {
+      "title": "Out-of-bounds Read",
+      "credit": [
+        ""
+      ],
+      "packageName": "glibc",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `glibc` package. </i>\n\nThe iconv feature in the GNU C Library (aka glibc or libc6) through 2.32, when processing invalid multi-byte input sequences in the EUC-KR encoding, may have a buffer over-read.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `glibc`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-25013)\n- [CONFIRM](https://security.netapp.com/advisory/ntap-20210205-0004/)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4Y6TX47P47KABSFOL26FLDNVCWXDKDEZ/)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TVCUNLQ3HXGS4VPUQKWTJGRAW2KTFGXS/)\n- [MISC](https://sourceware.org/bugzilla/show_bug.cgi?id=24973)\n- [MISC](https://sourceware.org/git/?p=glibc.git;a=commit;h=ee7a3144c9922808181009b7b3e50e852fb4999b)\n- [MLIST](https://lists.apache.org/thread.html/r32d767ac804e9b8aad4355bb85960a6a1385eab7afff549a5e98660f@%3Cjira.kafka.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r448bb851cc8e6e3f93f3c28c70032b37062625d81214744474ac49e7@%3Cdev.kafka.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r4806a391091e082bdea17266452ca656ebc176e51bb3932733b3a0a2@%3Cjira.kafka.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r499e4f96d0b5109ef083f2feccd33c51650c1b7d7068aa3bd47efca9@%3Cjira.kafka.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r5af4430421bb6f9973294691a7904bbd260937e9eef96b20556f43ff@%3Cjira.kafka.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r750eee18542bc02bd8350861c424ee60a9b9b225568fa09436a37ece@%3Cissues.zookeeper.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r7a2e94adfe0a2f0a1d42e4927e8c32ecac97d37db9cb68095fe9ddbc@%3Cdev.zookeeper.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rd2354f9ccce41e494fbadcbc5ad87218de6ec0fff8a7b54c8462226c@%3Cissues.zookeeper.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2019-25013"
+        ],
+        "CWE": [
+          "CWE-125"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 5.9,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-25013"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://security.netapp.com/advisory/ntap-20210205-0004/"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4Y6TX47P47KABSFOL26FLDNVCWXDKDEZ/"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TVCUNLQ3HXGS4VPUQKWTJGRAW2KTFGXS/"
+        },
+        {
+          "title": "MISC",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=24973"
+        },
+        {
+          "title": "MISC",
+          "url": "https://sourceware.org/git/?p=glibc.git%3Ba=commit%3Bh=ee7a3144c9922808181009b7b3e50e852fb4999b"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r32d767ac804e9b8aad4355bb85960a6a1385eab7afff549a5e98660f@%3Cjira.kafka.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r448bb851cc8e6e3f93f3c28c70032b37062625d81214744474ac49e7@%3Cdev.kafka.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r4806a391091e082bdea17266452ca656ebc176e51bb3932733b3a0a2@%3Cjira.kafka.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r499e4f96d0b5109ef083f2feccd33c51650c1b7d7068aa3bd47efca9@%3Cjira.kafka.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r5af4430421bb6f9973294691a7904bbd260937e9eef96b20556f43ff@%3Cjira.kafka.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r750eee18542bc02bd8350861c424ee60a9b9b225568fa09436a37ece@%3Cissues.zookeeper.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r7a2e94adfe0a2f0a1d42e4927e8c32ecac97d37db9cb68095fe9ddbc@%3Cdev.zookeeper.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rd2354f9ccce41e494fbadcbc5ad87218de6ec0fff8a7b54c8462226c@%3Cissues.zookeeper.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        }
+      ],
+      "creationTime": "2021-04-27T03:33:32.856232Z",
+      "modificationTime": "2021-05-25T15:38:41.606813Z",
+      "publicationTime": "2021-01-06T03:30:11.181511Z",
+      "disclosureTime": "2021-01-04T18:15:00Z",
+      "id": "SNYK-UBUNTU2104-GLIBC-1264849",
+      "nvdSeverity": "medium",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "meta-common-packages@meta",
+        "glibc/libc6@2.33-0ubuntu5"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "glibc/libc6",
+      "version": "2.33-0ubuntu5"
+    },
+    {
+      "title": "Improper Input Validation",
+      "credit": [
+        ""
+      ],
+      "packageName": "glibc",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `glibc` package. </i>\n\nThe iconv program in the GNU C Library (aka glibc or libc6) 2.31 and earlier, when invoked with multiple suffixes in the destination encoding (TRANSLATE or IGNORE) along with the -c option, enters an infinite loop when processing invalid multi-byte input sequences, leading to a denial of service.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `glibc`.\n## References\n- [CONFIRM](https://sourceware.org/bugzilla/show_bug.cgi?id=19519#c21)\n- [CONFIRM](https://sourceware.org/bugzilla/show_bug.cgi?id=26224)\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2016-10228)\n- [GENTOO](https://security.gentoo.org/glsa/202101-20)\n- [https://sourceware.org/bugzilla/show_bug.cgi?id=19519](https://sourceware.org/bugzilla/show_bug.cgi?id=19519)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [OSS security Advisory](http://openwall.com/lists/oss-security/2017/03/01/10)\n- [Security Focus](http://www.securityfocus.com/bid/96525)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-10228)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2016-10228"
+        ],
+        "CWE": [
+          "CWE-20"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 5.9,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "CONFIRM",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=19519%23c21"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=26224"
+        },
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2016-10228"
+        },
+        {
+          "title": "GENTOO",
+          "url": "https://security.gentoo.org/glsa/202101-20"
+        },
+        {
+          "title": "https://sourceware.org/bugzilla/show_bug.cgi?id=19519",
+          "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=19519"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "OSS security Advisory",
+          "url": "http://openwall.com/lists/oss-security/2017/03/01/10"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/96525"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2016-10228"
+        }
+      ],
+      "creationTime": "2021-04-27T05:26:04.730140Z",
+      "modificationTime": "2021-05-25T15:46:05.603893Z",
+      "publicationTime": "2017-03-02T01:59:00Z",
+      "disclosureTime": "2017-03-02T01:59:00Z",
+      "id": "SNYK-UBUNTU2104-GLIBC-1275023",
+      "nvdSeverity": "medium",
+      "relativeImportance": "negligible",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "meta-common-packages@meta",
+        "glibc/libc6@2.33-0ubuntu5"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "glibc/libc6",
+      "version": "2.33-0ubuntu5"
+    },
+    {
+      "title": "Improper Certificate Validation",
+      "credit": [
+        ""
+      ],
+      "packageName": "gnupg2",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `gnupg2` package. </i>\n\nInteraction between the sks-keyserver code through 1.2.0 of the SKS keyserver network, and GnuPG through 2.2.16, makes it risky to have a GnuPG keyserver configuration line referring to a host on the SKS keyserver network. Retrieving data from this network may cause a persistent denial of service, because of a Certificate Spamming Attack.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `gnupg2`.\n## References\n- [CONFIRM](https://lists.gnupg.org/pipermail/gnupg-announce/2019q3/000439.html)\n- [CONFIRM](https://support.f5.com/csp/article/K08654551)\n- [CONFIRM](https://support.f5.com/csp/article/K08654551?utm_source=f5support&amp;utm_medium=RSS)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AUK2YRO6QIH64WP2LRA5D4LACTXQPPU4/)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CP4ON34YEXEZDZOXXWV43KVGGO6WZLJ5/)\n- [MISC](https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f)\n- [MISC](https://twitter.com/lambdafu/status/1147162583969009664)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [SUSE](http://lists.opensuse.org/opensuse-security-announce/2019-08/msg00039.html)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-13050)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2019-13050"
+        ],
+        "CWE": [
+          "CWE-295"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 7.5,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "CONFIRM",
+          "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2019q3/000439.html"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://support.f5.com/csp/article/K08654551"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://support.f5.com/csp/article/K08654551?utm_source=f5support&amp%3Butm_medium=RSS"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AUK2YRO6QIH64WP2LRA5D4LACTXQPPU4/"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CP4ON34YEXEZDZOXXWV43KVGGO6WZLJ5/"
+        },
+        {
+          "title": "MISC",
+          "url": "https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f"
+        },
+        {
+          "title": "MISC",
+          "url": "https://twitter.com/lambdafu/status/1147162583969009664"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "SUSE",
+          "url": "http://lists.opensuse.org/opensuse-security-announce/2019-08/msg00039.html"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-13050"
+        }
+      ],
+      "creationTime": "2021-04-27T03:41:52.240616Z",
+      "modificationTime": "2021-05-25T15:39:37.955964Z",
+      "publicationTime": "2019-07-24T09:38:58.904181Z",
+      "disclosureTime": "2019-06-29T17:15:00Z",
+      "id": "SNYK-UBUNTU2104-GNUPG2-1265973",
+      "nvdSeverity": "high",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "gnupg2/gpgv@2.2.20-1ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "gnupg2/gpgv",
+      "version": "2.2.20-1ubuntu3"
+    },
+    {
+      "title": "Improper Certificate Validation",
+      "credit": [
+        ""
+      ],
+      "packageName": "gnupg2",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `gnupg2` package. </i>\n\nInteraction between the sks-keyserver code through 1.2.0 of the SKS keyserver network, and GnuPG through 2.2.16, makes it risky to have a GnuPG keyserver configuration line referring to a host on the SKS keyserver network. Retrieving data from this network may cause a persistent denial of service, because of a Certificate Spamming Attack.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `gnupg2`.\n## References\n- [CONFIRM](https://lists.gnupg.org/pipermail/gnupg-announce/2019q3/000439.html)\n- [CONFIRM](https://support.f5.com/csp/article/K08654551)\n- [CONFIRM](https://support.f5.com/csp/article/K08654551?utm_source=f5support&amp;utm_medium=RSS)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AUK2YRO6QIH64WP2LRA5D4LACTXQPPU4/)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CP4ON34YEXEZDZOXXWV43KVGGO6WZLJ5/)\n- [MISC](https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f)\n- [MISC](https://twitter.com/lambdafu/status/1147162583969009664)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [SUSE](http://lists.opensuse.org/opensuse-security-announce/2019-08/msg00039.html)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-13050)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2019-13050"
+        ],
+        "CWE": [
+          "CWE-295"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 7.5,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "CONFIRM",
+          "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2019q3/000439.html"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://support.f5.com/csp/article/K08654551"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://support.f5.com/csp/article/K08654551?utm_source=f5support&amp%3Butm_medium=RSS"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AUK2YRO6QIH64WP2LRA5D4LACTXQPPU4/"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CP4ON34YEXEZDZOXXWV43KVGGO6WZLJ5/"
+        },
+        {
+          "title": "MISC",
+          "url": "https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f"
+        },
+        {
+          "title": "MISC",
+          "url": "https://twitter.com/lambdafu/status/1147162583969009664"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "SUSE",
+          "url": "http://lists.opensuse.org/opensuse-security-announce/2019-08/msg00039.html"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-13050"
+        }
+      ],
+      "creationTime": "2021-04-27T03:41:52.240616Z",
+      "modificationTime": "2021-05-25T15:39:37.955964Z",
+      "publicationTime": "2019-07-24T09:38:58.904181Z",
+      "disclosureTime": "2019-06-29T17:15:00Z",
+      "id": "SNYK-UBUNTU2104-GNUPG2-1265973",
+      "nvdSeverity": "high",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "gnupg2/gpgv@2.2.20-1ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "gnupg2/gpgv",
+      "version": "2.2.20-1ubuntu3"
+    },
+    {
+      "title": "Use After Free",
+      "credit": [
+        ""
+      ],
+      "packageName": "gnutls28",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `gnutls28` package. </i>\n\nA flaw was found in gnutls. A use after free issue in client sending key_share extension may lead to memory corruption and other consequences.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `gnutls28`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-20231)\n- [CONFIRM](https://security.netapp.com/advisory/ntap-20210416-0005/)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OSLAE6PP33A7VYRYMYMUVB3U6B26GZER/)\n- [MISC](https://bugzilla.redhat.com/show_bug.cgi?id=1922276)\n- [MISC](https://www.gnutls.org/security-new.html#GNUTLS-SA-2021-03-10)\n- [MLIST](https://lists.apache.org/thread.html/r50661d6f0082709aad9a584431b59ec364f9974b63b07e0800230168@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r5d4001031e7790d8c6396c499522b4ed2aab782da87b1a14184793bb@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r5f88bed447742fcc5c47bf1c7be965ef450131914a6e1f85feba2779@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r6ac143ba6dd98bd4bf6bf010d46e56e254056459721ba18822d611f7@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r9cbc69e57276413788e90a6ee16c7c034ea4258d31935b70db2bd158@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rcd70a4c88a47a75fd2d5f3ffb7cee8c2a18c713320bd90fdcb57495f@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rf5e1256d870193def4a82ad89ab95e63943a313b5ff0d81aa87e4532@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rfd5273d72d244178441e6904a2f2b41a3268f569e8092ea0b3b2bb20@%3Cissues.spark.apache.org%3E)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-20231"
+        ],
+        "CWE": [
+          "CWE-416"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-20231"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://security.netapp.com/advisory/ntap-20210416-0005/"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OSLAE6PP33A7VYRYMYMUVB3U6B26GZER/"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1922276"
+        },
+        {
+          "title": "MISC",
+          "url": "https://www.gnutls.org/security-new.html%23GNUTLS-SA-2021-03-10"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r50661d6f0082709aad9a584431b59ec364f9974b63b07e0800230168@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r5d4001031e7790d8c6396c499522b4ed2aab782da87b1a14184793bb@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r5f88bed447742fcc5c47bf1c7be965ef450131914a6e1f85feba2779@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r6ac143ba6dd98bd4bf6bf010d46e56e254056459721ba18822d611f7@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r9cbc69e57276413788e90a6ee16c7c034ea4258d31935b70db2bd158@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rcd70a4c88a47a75fd2d5f3ffb7cee8c2a18c713320bd90fdcb57495f@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf5e1256d870193def4a82ad89ab95e63943a313b5ff0d81aa87e4532@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rfd5273d72d244178441e6904a2f2b41a3268f569e8092ea0b3b2bb20@%3Cissues.spark.apache.org%3E"
+        }
+      ],
+      "creationTime": "2021-04-26T16:16:41.629885Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2021-03-13T03:30:12.410205Z",
+      "disclosureTime": "2021-03-12T19:15:00Z",
+      "id": "SNYK-UBUNTU2104-GNUTLS28-1257287",
+      "nvdSeverity": "critical",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "gnutls28/libgnutls30@3.7.1-3ubuntu1"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "gnutls28/libgnutls30",
+      "version": "3.7.1-3ubuntu1"
+    },
+    {
+      "title": "Use After Free",
+      "credit": [
+        ""
+      ],
+      "packageName": "gnutls28",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `gnutls28` package. </i>\n\nA flaw was found in gnutls. A use after free issue in client_send_params in lib/ext/pre_shared_key.c may lead to memory corruption and other potential consequences.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `gnutls28`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-20232)\n- [CONFIRM](https://security.netapp.com/advisory/ntap-20210416-0005/)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OSLAE6PP33A7VYRYMYMUVB3U6B26GZER/)\n- [MISC](https://bugzilla.redhat.com/show_bug.cgi?id=1922275)\n- [MISC](https://www.gnutls.org/security-new.html#GNUTLS-SA-2021-03-10)\n- [MLIST](https://lists.apache.org/thread.html/r50661d6f0082709aad9a584431b59ec364f9974b63b07e0800230168@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r5d4001031e7790d8c6396c499522b4ed2aab782da87b1a14184793bb@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r5f88bed447742fcc5c47bf1c7be965ef450131914a6e1f85feba2779@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r6ac143ba6dd98bd4bf6bf010d46e56e254056459721ba18822d611f7@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r9cbc69e57276413788e90a6ee16c7c034ea4258d31935b70db2bd158@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rcd70a4c88a47a75fd2d5f3ffb7cee8c2a18c713320bd90fdcb57495f@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rf5e1256d870193def4a82ad89ab95e63943a313b5ff0d81aa87e4532@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rfd5273d72d244178441e6904a2f2b41a3268f569e8092ea0b3b2bb20@%3Cissues.spark.apache.org%3E)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-20232"
+        ],
+        "CWE": [
+          "CWE-416"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-20232"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://security.netapp.com/advisory/ntap-20210416-0005/"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OSLAE6PP33A7VYRYMYMUVB3U6B26GZER/"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1922275"
+        },
+        {
+          "title": "MISC",
+          "url": "https://www.gnutls.org/security-new.html%23GNUTLS-SA-2021-03-10"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r50661d6f0082709aad9a584431b59ec364f9974b63b07e0800230168@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r5d4001031e7790d8c6396c499522b4ed2aab782da87b1a14184793bb@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r5f88bed447742fcc5c47bf1c7be965ef450131914a6e1f85feba2779@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r6ac143ba6dd98bd4bf6bf010d46e56e254056459721ba18822d611f7@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r9cbc69e57276413788e90a6ee16c7c034ea4258d31935b70db2bd158@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rcd70a4c88a47a75fd2d5f3ffb7cee8c2a18c713320bd90fdcb57495f@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf5e1256d870193def4a82ad89ab95e63943a313b5ff0d81aa87e4532@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rfd5273d72d244178441e6904a2f2b41a3268f569e8092ea0b3b2bb20@%3Cissues.spark.apache.org%3E"
+        }
+      ],
+      "creationTime": "2021-04-26T16:16:43.186880Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2021-03-13T03:30:18.567004Z",
+      "disclosureTime": "2021-03-12T19:15:00Z",
+      "id": "SNYK-UBUNTU2104-GNUTLS28-1257293",
+      "nvdSeverity": "critical",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "gnutls28/libgnutls30@3.7.1-3ubuntu1"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "gnutls28/libgnutls30",
+      "version": "3.7.1-3ubuntu1"
+    },
+    {
+      "title": "Use After Free",
+      "credit": [
+        ""
+      ],
+      "packageName": "gnutls28",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `gnutls28` package. </i>\n\nA flaw was found in gnutls. A use after free issue in client sending key_share extension may lead to memory corruption and other consequences.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `gnutls28`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-20231)\n- [CONFIRM](https://security.netapp.com/advisory/ntap-20210416-0005/)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OSLAE6PP33A7VYRYMYMUVB3U6B26GZER/)\n- [MISC](https://bugzilla.redhat.com/show_bug.cgi?id=1922276)\n- [MISC](https://www.gnutls.org/security-new.html#GNUTLS-SA-2021-03-10)\n- [MLIST](https://lists.apache.org/thread.html/r50661d6f0082709aad9a584431b59ec364f9974b63b07e0800230168@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r5d4001031e7790d8c6396c499522b4ed2aab782da87b1a14184793bb@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r5f88bed447742fcc5c47bf1c7be965ef450131914a6e1f85feba2779@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r6ac143ba6dd98bd4bf6bf010d46e56e254056459721ba18822d611f7@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r9cbc69e57276413788e90a6ee16c7c034ea4258d31935b70db2bd158@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rcd70a4c88a47a75fd2d5f3ffb7cee8c2a18c713320bd90fdcb57495f@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rf5e1256d870193def4a82ad89ab95e63943a313b5ff0d81aa87e4532@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rfd5273d72d244178441e6904a2f2b41a3268f569e8092ea0b3b2bb20@%3Cissues.spark.apache.org%3E)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-20231"
+        ],
+        "CWE": [
+          "CWE-416"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-20231"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://security.netapp.com/advisory/ntap-20210416-0005/"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OSLAE6PP33A7VYRYMYMUVB3U6B26GZER/"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1922276"
+        },
+        {
+          "title": "MISC",
+          "url": "https://www.gnutls.org/security-new.html%23GNUTLS-SA-2021-03-10"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r50661d6f0082709aad9a584431b59ec364f9974b63b07e0800230168@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r5d4001031e7790d8c6396c499522b4ed2aab782da87b1a14184793bb@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r5f88bed447742fcc5c47bf1c7be965ef450131914a6e1f85feba2779@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r6ac143ba6dd98bd4bf6bf010d46e56e254056459721ba18822d611f7@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r9cbc69e57276413788e90a6ee16c7c034ea4258d31935b70db2bd158@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rcd70a4c88a47a75fd2d5f3ffb7cee8c2a18c713320bd90fdcb57495f@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf5e1256d870193def4a82ad89ab95e63943a313b5ff0d81aa87e4532@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rfd5273d72d244178441e6904a2f2b41a3268f569e8092ea0b3b2bb20@%3Cissues.spark.apache.org%3E"
+        }
+      ],
+      "creationTime": "2021-04-26T16:16:41.629885Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2021-03-13T03:30:12.410205Z",
+      "disclosureTime": "2021-03-12T19:15:00Z",
+      "id": "SNYK-UBUNTU2104-GNUTLS28-1257287",
+      "nvdSeverity": "critical",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "gnutls28/libgnutls30@3.7.1-3ubuntu1"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "gnutls28/libgnutls30",
+      "version": "3.7.1-3ubuntu1"
+    },
+    {
+      "title": "Use After Free",
+      "credit": [
+        ""
+      ],
+      "packageName": "gnutls28",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `gnutls28` package. </i>\n\nA flaw was found in gnutls. A use after free issue in client_send_params in lib/ext/pre_shared_key.c may lead to memory corruption and other potential consequences.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `gnutls28`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-20232)\n- [CONFIRM](https://security.netapp.com/advisory/ntap-20210416-0005/)\n- [FEDORA](https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OSLAE6PP33A7VYRYMYMUVB3U6B26GZER/)\n- [MISC](https://bugzilla.redhat.com/show_bug.cgi?id=1922275)\n- [MISC](https://www.gnutls.org/security-new.html#GNUTLS-SA-2021-03-10)\n- [MLIST](https://lists.apache.org/thread.html/r50661d6f0082709aad9a584431b59ec364f9974b63b07e0800230168@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r5d4001031e7790d8c6396c499522b4ed2aab782da87b1a14184793bb@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r5f88bed447742fcc5c47bf1c7be965ef450131914a6e1f85feba2779@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r6ac143ba6dd98bd4bf6bf010d46e56e254056459721ba18822d611f7@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/r9cbc69e57276413788e90a6ee16c7c034ea4258d31935b70db2bd158@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rcd70a4c88a47a75fd2d5f3ffb7cee8c2a18c713320bd90fdcb57495f@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rf5e1256d870193def4a82ad89ab95e63943a313b5ff0d81aa87e4532@%3Cissues.spark.apache.org%3E)\n- [MLIST](https://lists.apache.org/thread.html/rfd5273d72d244178441e6904a2f2b41a3268f569e8092ea0b3b2bb20@%3Cissues.spark.apache.org%3E)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-20232"
+        ],
+        "CWE": [
+          "CWE-416"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-20232"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://security.netapp.com/advisory/ntap-20210416-0005/"
+        },
+        {
+          "title": "FEDORA",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OSLAE6PP33A7VYRYMYMUVB3U6B26GZER/"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1922275"
+        },
+        {
+          "title": "MISC",
+          "url": "https://www.gnutls.org/security-new.html%23GNUTLS-SA-2021-03-10"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r50661d6f0082709aad9a584431b59ec364f9974b63b07e0800230168@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r5d4001031e7790d8c6396c499522b4ed2aab782da87b1a14184793bb@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r5f88bed447742fcc5c47bf1c7be965ef450131914a6e1f85feba2779@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r6ac143ba6dd98bd4bf6bf010d46e56e254056459721ba18822d611f7@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/r9cbc69e57276413788e90a6ee16c7c034ea4258d31935b70db2bd158@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rcd70a4c88a47a75fd2d5f3ffb7cee8c2a18c713320bd90fdcb57495f@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf5e1256d870193def4a82ad89ab95e63943a313b5ff0d81aa87e4532@%3Cissues.spark.apache.org%3E"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rfd5273d72d244178441e6904a2f2b41a3268f569e8092ea0b3b2bb20@%3Cissues.spark.apache.org%3E"
+        }
+      ],
+      "creationTime": "2021-04-26T16:16:43.186880Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2021-03-13T03:30:18.567004Z",
+      "disclosureTime": "2021-03-12T19:15:00Z",
+      "id": "SNYK-UBUNTU2104-GNUTLS28-1257293",
+      "nvdSeverity": "critical",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "gnutls28/libgnutls30@3.7.1-3ubuntu1"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "gnutls28/libgnutls30",
+      "version": "3.7.1-3ubuntu1"
+    },
+    {
+      "title": "CVE-2021-33560",
+      "credit": [
+        ""
+      ],
+      "packageName": "libgcrypt20",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `libgcrypt20` package. </i>\n\nLibgcrypt before 1.8.8 and 1.9.x before 1.9.3 mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm, and the window size is not chosen appropriately. (There is also an interoperability problem because the selection of the k integer value does not properly consider the differences between basic ElGamal encryption and generalized ElGamal encryption.) This, for example, affects use of ElGamal in OpenPGP.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `libgcrypt20`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-33560)\n- [MISC](https://dev.gnupg.org/rCe8b7f10be275bcedb5fc05ed4837a89bfd605c61)\n- [MISC](https://dev.gnupg.org/T5305)\n- [MISC](https://dev.gnupg.org/T5328)\n- [MISC](https://dev.gnupg.org/T5466)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-33560"
+        ],
+        "CWE": []
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": null,
+      "CVSSv3": null,
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-33560"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/rCe8b7f10be275bcedb5fc05ed4837a89bfd605c61"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/T5305"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/T5328"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/T5466"
+        }
+      ],
+      "creationTime": "2021-05-29T03:31:13.540813Z",
+      "modificationTime": "2021-06-11T15:31:37.807117Z",
+      "publicationTime": "2021-06-01T03:31:05.677383Z",
+      "disclosureTime": "2021-06-08T11:15:00Z",
+      "id": "SNYK-UBUNTU2104-LIBGCRYPT20-1297922",
+      "nvdSeverity": "low",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "libgcrypt20@1.8.7-2ubuntu2"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libgcrypt20",
+      "version": "1.8.7-2ubuntu2"
+    },
+    {
+      "title": "CVE-2021-33560",
+      "credit": [
+        ""
+      ],
+      "packageName": "libgcrypt20",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `libgcrypt20` package. </i>\n\nLibgcrypt before 1.8.8 and 1.9.x before 1.9.3 mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm, and the window size is not chosen appropriately. (There is also an interoperability problem because the selection of the k integer value does not properly consider the differences between basic ElGamal encryption and generalized ElGamal encryption.) This, for example, affects use of ElGamal in OpenPGP.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `libgcrypt20`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-33560)\n- [MISC](https://dev.gnupg.org/rCe8b7f10be275bcedb5fc05ed4837a89bfd605c61)\n- [MISC](https://dev.gnupg.org/T5305)\n- [MISC](https://dev.gnupg.org/T5328)\n- [MISC](https://dev.gnupg.org/T5466)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-33560"
+        ],
+        "CWE": []
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": null,
+      "CVSSv3": null,
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-33560"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/rCe8b7f10be275bcedb5fc05ed4837a89bfd605c61"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/T5305"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/T5328"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/T5466"
+        }
+      ],
+      "creationTime": "2021-05-29T03:31:13.540813Z",
+      "modificationTime": "2021-06-11T15:31:37.807117Z",
+      "publicationTime": "2021-06-01T03:31:05.677383Z",
+      "disclosureTime": "2021-06-08T11:15:00Z",
+      "id": "SNYK-UBUNTU2104-LIBGCRYPT20-1297922",
+      "nvdSeverity": "low",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "apt/libapt-pkg6.0@2.2.3",
+        "libgcrypt20@1.8.7-2ubuntu2"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libgcrypt20",
+      "version": "1.8.7-2ubuntu2"
+    },
+    {
+      "title": "CVE-2021-33560",
+      "credit": [
+        ""
+      ],
+      "packageName": "libgcrypt20",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `libgcrypt20` package. </i>\n\nLibgcrypt before 1.8.8 and 1.9.x before 1.9.3 mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm, and the window size is not chosen appropriately. (There is also an interoperability problem because the selection of the k integer value does not properly consider the differences between basic ElGamal encryption and generalized ElGamal encryption.) This, for example, affects use of ElGamal in OpenPGP.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `libgcrypt20`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-33560)\n- [MISC](https://dev.gnupg.org/rCe8b7f10be275bcedb5fc05ed4837a89bfd605c61)\n- [MISC](https://dev.gnupg.org/T5305)\n- [MISC](https://dev.gnupg.org/T5328)\n- [MISC](https://dev.gnupg.org/T5466)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-33560"
+        ],
+        "CWE": []
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": null,
+      "CVSSv3": null,
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-33560"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/rCe8b7f10be275bcedb5fc05ed4837a89bfd605c61"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/T5305"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/T5328"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/T5466"
+        }
+      ],
+      "creationTime": "2021-05-29T03:31:13.540813Z",
+      "modificationTime": "2021-06-11T15:31:37.807117Z",
+      "publicationTime": "2021-06-01T03:31:05.677383Z",
+      "disclosureTime": "2021-06-08T11:15:00Z",
+      "id": "SNYK-UBUNTU2104-LIBGCRYPT20-1297922",
+      "nvdSeverity": "low",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "gnupg2/gpgv@2.2.20-1ubuntu3",
+        "libgcrypt20@1.8.7-2ubuntu2"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libgcrypt20",
+      "version": "1.8.7-2ubuntu2"
+    },
+    {
+      "title": "CVE-2021-33560",
+      "credit": [
+        ""
+      ],
+      "packageName": "libgcrypt20",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `libgcrypt20` package. </i>\n\nLibgcrypt before 1.8.8 and 1.9.x before 1.9.3 mishandles ElGamal encryption because it lacks exponent blinding to address a side-channel attack against mpi_powm, and the window size is not chosen appropriately. (There is also an interoperability problem because the selection of the k integer value does not properly consider the differences between basic ElGamal encryption and generalized ElGamal encryption.) This, for example, affects use of ElGamal in OpenPGP.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `libgcrypt20`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-33560)\n- [MISC](https://dev.gnupg.org/rCe8b7f10be275bcedb5fc05ed4837a89bfd605c61)\n- [MISC](https://dev.gnupg.org/T5305)\n- [MISC](https://dev.gnupg.org/T5328)\n- [MISC](https://dev.gnupg.org/T5466)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-33560"
+        ],
+        "CWE": []
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": null,
+      "CVSSv3": null,
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-33560"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/rCe8b7f10be275bcedb5fc05ed4837a89bfd605c61"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/T5305"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/T5328"
+        },
+        {
+          "title": "MISC",
+          "url": "https://dev.gnupg.org/T5466"
+        }
+      ],
+      "creationTime": "2021-05-29T03:31:13.540813Z",
+      "modificationTime": "2021-06-11T15:31:37.807117Z",
+      "publicationTime": "2021-06-01T03:31:05.677383Z",
+      "disclosureTime": "2021-06-08T11:15:00Z",
+      "id": "SNYK-UBUNTU2104-LIBGCRYPT20-1297922",
+      "nvdSeverity": "low",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "apt/libapt-pkg6.0@2.2.3",
+        "systemd/libsystemd0@247.3-3ubuntu3",
+        "libgcrypt20@1.8.7-2ubuntu2"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libgcrypt20",
+      "version": "1.8.7-2ubuntu2"
+    },
+    {
+      "title": "Resource Management Errors",
+      "credit": [
+        ""
+      ],
+      "packageName": "libtasn1-6",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `libtasn1-6` package. </i>\n\nGNU Libtasn1-4.13 libtasn1-4.13 version libtasn1-4.13, libtasn1-4.12 contains a DoS, specifically CPU usage will reach 100% when running asn1Paser against the POC due to an issue in _asn1_expand_object_id(p_tree), after a long time, the program will be killed. This attack appears to be exploitable via parsing a crafted file.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `libtasn1-6`.\n## References\n- [CONFIRM](https://gitlab.com/gnutls/libtasn1/issues/4)\n- [CVE Details](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000654)\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-1000654)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [OpenSuse Security Announcement](http://lists.opensuse.org/opensuse-security-announce/2019-06/msg00009.html)\n- [OpenSuse Security Announcement](http://lists.opensuse.org/opensuse-security-announce/2019-06/msg00018.html)\n- [Security Focus](http://www.securityfocus.com/bid/105151)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-1000654)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2018-1000654"
+        ],
+        "CWE": []
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 5.5,
+      "CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "CONFIRM",
+          "url": "https://gitlab.com/gnutls/libtasn1/issues/4"
+        },
+        {
+          "title": "CVE Details",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000654"
+        },
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2018-1000654"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "OpenSuse Security Announcement",
+          "url": "http://lists.opensuse.org/opensuse-security-announce/2019-06/msg00009.html"
+        },
+        {
+          "title": "OpenSuse Security Announcement",
+          "url": "http://lists.opensuse.org/opensuse-security-announce/2019-06/msg00018.html"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/105151"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-1000654"
+        }
+      ],
+      "creationTime": "2021-04-27T04:23:39.167322Z",
+      "modificationTime": "2021-05-25T15:41:39.535996Z",
+      "publicationTime": "2018-08-22T13:40:59.009029Z",
+      "disclosureTime": "2018-08-20T19:31:00Z",
+      "id": "SNYK-UBUNTU2104-LIBTASN16-1270130",
+      "nvdSeverity": "medium",
+      "relativeImportance": "negligible",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "libtasn1-6@4.16.0-2"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libtasn1-6",
+      "version": "4.16.0-2"
+    },
+    {
+      "title": "Resource Management Errors",
+      "credit": [
+        ""
+      ],
+      "packageName": "libtasn1-6",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `libtasn1-6` package. </i>\n\nGNU Libtasn1-4.13 libtasn1-4.13 version libtasn1-4.13, libtasn1-4.12 contains a DoS, specifically CPU usage will reach 100% when running asn1Paser against the POC due to an issue in _asn1_expand_object_id(p_tree), after a long time, the program will be killed. This attack appears to be exploitable via parsing a crafted file.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `libtasn1-6`.\n## References\n- [CONFIRM](https://gitlab.com/gnutls/libtasn1/issues/4)\n- [CVE Details](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000654)\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-1000654)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [OpenSuse Security Announcement](http://lists.opensuse.org/opensuse-security-announce/2019-06/msg00009.html)\n- [OpenSuse Security Announcement](http://lists.opensuse.org/opensuse-security-announce/2019-06/msg00018.html)\n- [Security Focus](http://www.securityfocus.com/bid/105151)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-1000654)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2018-1000654"
+        ],
+        "CWE": []
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 5.5,
+      "CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "CONFIRM",
+          "url": "https://gitlab.com/gnutls/libtasn1/issues/4"
+        },
+        {
+          "title": "CVE Details",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000654"
+        },
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2018-1000654"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "OpenSuse Security Announcement",
+          "url": "http://lists.opensuse.org/opensuse-security-announce/2019-06/msg00009.html"
+        },
+        {
+          "title": "OpenSuse Security Announcement",
+          "url": "http://lists.opensuse.org/opensuse-security-announce/2019-06/msg00018.html"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/105151"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-1000654"
+        }
+      ],
+      "creationTime": "2021-04-27T04:23:39.167322Z",
+      "modificationTime": "2021-05-25T15:41:39.535996Z",
+      "publicationTime": "2018-08-22T13:40:59.009029Z",
+      "disclosureTime": "2018-08-20T19:31:00Z",
+      "id": "SNYK-UBUNTU2104-LIBTASN16-1270130",
+      "nvdSeverity": "medium",
+      "relativeImportance": "negligible",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "gnutls28/libgnutls30@3.7.1-3ubuntu1",
+        "libtasn1-6@4.16.0-2"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "libtasn1-6",
+      "version": "4.16.0-2"
+    },
+    {
+      "title": "CVE-2021-3520",
+      "credit": [
+        ""
+      ],
+      "packageName": "lz4",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `lz4` package. </i>\n<i> See `Remediation` section below for `Ubuntu:21.04` relevant versions. </i>\n\nThere&#39;s a flaw in lz4. An attacker who submits a crafted file to an application linked with lz4 may be able to trigger an integer overflow, leading to calling of memmove() on a negative size argument, causing an out-of-bounds write and/or a crash. The greatest impact of this flaw is to availability, with some potential impact to confidentiality and integrity as well.\n## Remediation\nUpgrade `Ubuntu:21.04` `lz4` to version 1.9.3-1ubuntu0.1 or higher.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3520)\n- [MISC](https://bugzilla.redhat.com/show_bug.cgi?id=1954559)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-3520"
+        ],
+        "CWE": []
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": null,
+      "CVSSv3": null,
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3520"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1954559"
+        }
+      ],
+      "creationTime": "2021-05-02T15:34:44.082309Z",
+      "modificationTime": "2021-06-05T16:17:10.742797Z",
+      "publicationTime": "2021-05-21T03:31:03.032643Z",
+      "disclosureTime": "2021-06-02T13:15:00Z",
+      "id": "SNYK-UBUNTU2104-LZ4-1278681",
+      "nvdSeverity": "low",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "<1.9.3-1ubuntu0.1"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "lz4/liblz4-1@1.9.3-1build1"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "lz4/liblz4-1",
+      "version": "1.9.3-1build1",
+      "nearestFixedInVersion": "1.9.3-1ubuntu0.1"
+    },
+    {
+      "title": "CVE-2021-3520",
+      "credit": [
+        ""
+      ],
+      "packageName": "lz4",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `lz4` package. </i>\n<i> See `Remediation` section below for `Ubuntu:21.04` relevant versions. </i>\n\nThere&#39;s a flaw in lz4. An attacker who submits a crafted file to an application linked with lz4 may be able to trigger an integer overflow, leading to calling of memmove() on a negative size argument, causing an out-of-bounds write and/or a crash. The greatest impact of this flaw is to availability, with some potential impact to confidentiality and integrity as well.\n## Remediation\nUpgrade `Ubuntu:21.04` `lz4` to version 1.9.3-1ubuntu0.1 or higher.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3520)\n- [MISC](https://bugzilla.redhat.com/show_bug.cgi?id=1954559)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-3520"
+        ],
+        "CWE": []
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": null,
+      "CVSSv3": null,
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3520"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1954559"
+        }
+      ],
+      "creationTime": "2021-05-02T15:34:44.082309Z",
+      "modificationTime": "2021-06-05T16:17:10.742797Z",
+      "publicationTime": "2021-05-21T03:31:03.032643Z",
+      "disclosureTime": "2021-06-02T13:15:00Z",
+      "id": "SNYK-UBUNTU2104-LZ4-1278681",
+      "nvdSeverity": "low",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "<1.9.3-1ubuntu0.1"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "apt/libapt-pkg6.0@2.2.3",
+        "lz4/liblz4-1@1.9.3-1build1"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "lz4/liblz4-1",
+      "version": "1.9.3-1build1",
+      "nearestFixedInVersion": "1.9.3-1ubuntu0.1"
+    },
+    {
+      "title": "CVE-2021-3520",
+      "credit": [
+        ""
+      ],
+      "packageName": "lz4",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `lz4` package. </i>\n<i> See `Remediation` section below for `Ubuntu:21.04` relevant versions. </i>\n\nThere&#39;s a flaw in lz4. An attacker who submits a crafted file to an application linked with lz4 may be able to trigger an integer overflow, leading to calling of memmove() on a negative size argument, causing an out-of-bounds write and/or a crash. The greatest impact of this flaw is to availability, with some potential impact to confidentiality and integrity as well.\n## Remediation\nUpgrade `Ubuntu:21.04` `lz4` to version 1.9.3-1ubuntu0.1 or higher.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3520)\n- [MISC](https://bugzilla.redhat.com/show_bug.cgi?id=1954559)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-3520"
+        ],
+        "CWE": []
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": null,
+      "CVSSv3": null,
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3520"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1954559"
+        }
+      ],
+      "creationTime": "2021-05-02T15:34:44.082309Z",
+      "modificationTime": "2021-06-05T16:17:10.742797Z",
+      "publicationTime": "2021-05-21T03:31:03.032643Z",
+      "disclosureTime": "2021-06-02T13:15:00Z",
+      "id": "SNYK-UBUNTU2104-LZ4-1278681",
+      "nvdSeverity": "low",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "<1.9.3-1ubuntu0.1"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "apt/libapt-pkg6.0@2.2.3",
+        "systemd/libsystemd0@247.3-3ubuntu3",
+        "lz4/liblz4-1@1.9.3-1build1"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "lz4/liblz4-1",
+      "version": "1.9.3-1build1",
+      "nearestFixedInVersion": "1.9.3-1ubuntu0.1"
+    },
+    {
+      "title": "Out-of-bounds Read",
+      "credit": [
+        ""
+      ],
+      "packageName": "pcre3",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `pcre3` package. </i>\n\nlibpcre in PCRE before 8.43 allows a subject buffer over-read in JIT when UTF is disabled, and \\X or \\R has more than one fixed quantifier, a related issue to CVE-2019-20454.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `pcre3`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-20838)\n- [ADVISORY](https://security-tracker.debian.org/tracker/CVE-2019-20838)\n- [CONFIRM](https://support.apple.com/kb/HT211931)\n- [CONFIRM](https://support.apple.com/kb/HT212147)\n- [FULLDISC](http://seclists.org/fulldisclosure/2020/Dec/32)\n- [FULLDISC](http://seclists.org/fulldisclosure/2021/Feb/14)\n- [MISC](https://bugs.gentoo.org/717920)\n- [MISC](https://www.pcre.org/original/changelog.txt)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2019-20838"
+        ],
+        "CWE": [
+          "CWE-125"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 7.5,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-20838"
+        },
+        {
+          "title": "ADVISORY",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2019-20838"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://support.apple.com/kb/HT211931"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://support.apple.com/kb/HT212147"
+        },
+        {
+          "title": "FULLDISC",
+          "url": "http://seclists.org/fulldisclosure/2020/Dec/32"
+        },
+        {
+          "title": "FULLDISC",
+          "url": "http://seclists.org/fulldisclosure/2021/Feb/14"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugs.gentoo.org/717920"
+        },
+        {
+          "title": "MISC",
+          "url": "https://www.pcre.org/original/changelog.txt"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        }
+      ],
+      "creationTime": "2021-04-27T03:34:05.051763Z",
+      "modificationTime": "2021-05-25T15:38:42.062386Z",
+      "publicationTime": "2020-06-15T21:59:34.458267Z",
+      "disclosureTime": "2020-06-15T17:15:00Z",
+      "id": "SNYK-UBUNTU2104-PCRE3-1264930",
+      "nvdSeverity": "high",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "pcre3/libpcre3@2:8.39-13build3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "pcre3/libpcre3",
+      "version": "2:8.39-13build3"
+    },
+    {
+      "title": "Uncontrolled Recursion",
+      "credit": [
+        ""
+      ],
+      "packageName": "pcre3",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `pcre3` package. </i>\n\nIn PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `pcre3`.\n## References\n- [CVE Details](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-11164)\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2017-11164)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [OSS security Advisory](http://openwall.com/lists/oss-security/2017/07/11/3)\n- [Security Focus](http://www.securityfocus.com/bid/99575)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2017-11164"
+        ],
+        "CWE": [
+          "CWE-674"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 7.5,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "CVE Details",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-11164"
+        },
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2017-11164"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "OSS security Advisory",
+          "url": "http://openwall.com/lists/oss-security/2017/07/11/3"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/99575"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164"
+        }
+      ],
+      "creationTime": "2021-04-27T05:01:13.654602Z",
+      "modificationTime": "2021-05-25T15:43:39.430595Z",
+      "publicationTime": "2017-07-11T03:29:00Z",
+      "disclosureTime": "2017-07-11T03:29:00Z",
+      "id": "SNYK-UBUNTU2104-PCRE3-1273262",
+      "nvdSeverity": "high",
+      "relativeImportance": "negligible",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "pcre3/libpcre3@2:8.39-13build3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "pcre3/libpcre3",
+      "version": "2:8.39-13build3"
+    },
+    {
+      "title": "Out-of-bounds Read",
+      "credit": [
+        ""
+      ],
+      "packageName": "pcre3",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `pcre3` package. </i>\n\nlibpcre in PCRE before 8.43 allows a subject buffer over-read in JIT when UTF is disabled, and \\X or \\R has more than one fixed quantifier, a related issue to CVE-2019-20454.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `pcre3`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-20838)\n- [ADVISORY](https://security-tracker.debian.org/tracker/CVE-2019-20838)\n- [CONFIRM](https://support.apple.com/kb/HT211931)\n- [CONFIRM](https://support.apple.com/kb/HT212147)\n- [FULLDISC](http://seclists.org/fulldisclosure/2020/Dec/32)\n- [FULLDISC](http://seclists.org/fulldisclosure/2021/Feb/14)\n- [MISC](https://bugs.gentoo.org/717920)\n- [MISC](https://www.pcre.org/original/changelog.txt)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2019-20838"
+        ],
+        "CWE": [
+          "CWE-125"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 7.5,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-20838"
+        },
+        {
+          "title": "ADVISORY",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2019-20838"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://support.apple.com/kb/HT211931"
+        },
+        {
+          "title": "CONFIRM",
+          "url": "https://support.apple.com/kb/HT212147"
+        },
+        {
+          "title": "FULLDISC",
+          "url": "http://seclists.org/fulldisclosure/2020/Dec/32"
+        },
+        {
+          "title": "FULLDISC",
+          "url": "http://seclists.org/fulldisclosure/2021/Feb/14"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugs.gentoo.org/717920"
+        },
+        {
+          "title": "MISC",
+          "url": "https://www.pcre.org/original/changelog.txt"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        }
+      ],
+      "creationTime": "2021-04-27T03:34:05.051763Z",
+      "modificationTime": "2021-05-25T15:38:42.062386Z",
+      "publicationTime": "2020-06-15T21:59:34.458267Z",
+      "disclosureTime": "2020-06-15T17:15:00Z",
+      "id": "SNYK-UBUNTU2104-PCRE3-1264930",
+      "nvdSeverity": "high",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "grep@3.6-1",
+        "pcre3/libpcre3@2:8.39-13build3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "pcre3/libpcre3",
+      "version": "2:8.39-13build3"
+    },
+    {
+      "title": "Uncontrolled Recursion",
+      "credit": [
+        ""
+      ],
+      "packageName": "pcre3",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `pcre3` package. </i>\n\nIn PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `pcre3`.\n## References\n- [CVE Details](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-11164)\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2017-11164)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [OSS security Advisory](http://openwall.com/lists/oss-security/2017/07/11/3)\n- [Security Focus](http://www.securityfocus.com/bid/99575)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2017-11164"
+        ],
+        "CWE": [
+          "CWE-674"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 7.5,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "CVE Details",
+          "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-11164"
+        },
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2017-11164"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "OSS security Advisory",
+          "url": "http://openwall.com/lists/oss-security/2017/07/11/3"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/99575"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2017-11164"
+        }
+      ],
+      "creationTime": "2021-04-27T05:01:13.654602Z",
+      "modificationTime": "2021-05-25T15:43:39.430595Z",
+      "publicationTime": "2017-07-11T03:29:00Z",
+      "disclosureTime": "2017-07-11T03:29:00Z",
+      "id": "SNYK-UBUNTU2104-PCRE3-1273262",
+      "nvdSeverity": "high",
+      "relativeImportance": "negligible",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "grep@3.6-1",
+        "pcre3/libpcre3@2:8.39-13build3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "pcre3/libpcre3",
+      "version": "2:8.39-13build3"
+    },
+    {
+      "title": "Time-of-check Time-of-use (TOCTOU)",
+      "credit": [
+        ""
+      ],
+      "packageName": "shadow",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `shadow` package. </i>\n\nshadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `shadow`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2013-4235)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [RedHat Bugzilla Bug](https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4235)\n- [RedHat CVE Database](https://access.redhat.com/security/cve/cve-2013-4235)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2013-4235"
+        ],
+        "CWE": [
+          "CWE-367"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 4.7,
+      "CVSSv3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2013-4235"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "RedHat Bugzilla Bug",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4235"
+        },
+        {
+          "title": "RedHat CVE Database",
+          "url": "https://access.redhat.com/security/cve/cve-2013-4235"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235"
+        }
+      ],
+      "creationTime": "2021-04-27T05:51:31.450740Z",
+      "modificationTime": "2021-05-25T15:47:55.403966Z",
+      "publicationTime": "2018-06-27T16:11:53.712324Z",
+      "disclosureTime": "2019-12-03T15:15:00Z",
+      "id": "SNYK-UBUNTU2104-SHADOW-1276429",
+      "nvdSeverity": "medium",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "shadow/passwd@1:4.8.1-1ubuntu8"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "shadow/passwd",
+      "version": "1:4.8.1-1ubuntu8"
+    },
+    {
+      "title": "Time-of-check Time-of-use (TOCTOU)",
+      "credit": [
+        ""
+      ],
+      "packageName": "shadow",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `shadow` package. </i>\n\nshadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `shadow`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2013-4235)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [RedHat Bugzilla Bug](https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4235)\n- [RedHat CVE Database](https://access.redhat.com/security/cve/cve-2013-4235)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2013-4235"
+        ],
+        "CWE": [
+          "CWE-367"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 4.7,
+      "CVSSv3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2013-4235"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "RedHat Bugzilla Bug",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4235"
+        },
+        {
+          "title": "RedHat CVE Database",
+          "url": "https://access.redhat.com/security/cve/cve-2013-4235"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235"
+        }
+      ],
+      "creationTime": "2021-04-27T05:51:31.450740Z",
+      "modificationTime": "2021-05-25T15:47:55.403966Z",
+      "publicationTime": "2018-06-27T16:11:53.712324Z",
+      "disclosureTime": "2019-12-03T15:15:00Z",
+      "id": "SNYK-UBUNTU2104-SHADOW-1276429",
+      "nvdSeverity": "medium",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "adduser@3.118ubuntu5",
+        "shadow/passwd@1:4.8.1-1ubuntu8"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "shadow/passwd",
+      "version": "1:4.8.1-1ubuntu8"
+    },
+    {
+      "title": "Time-of-check Time-of-use (TOCTOU)",
+      "credit": [
+        ""
+      ],
+      "packageName": "shadow",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `shadow` package. </i>\n\nshadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `shadow`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2013-4235)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [RedHat Bugzilla Bug](https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4235)\n- [RedHat CVE Database](https://access.redhat.com/security/cve/cve-2013-4235)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2013-4235"
+        ],
+        "CWE": [
+          "CWE-367"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 4.7,
+      "CVSSv3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2013-4235"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "RedHat Bugzilla Bug",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4235"
+        },
+        {
+          "title": "RedHat CVE Database",
+          "url": "https://access.redhat.com/security/cve/cve-2013-4235"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235"
+        }
+      ],
+      "creationTime": "2021-04-27T05:51:31.450740Z",
+      "modificationTime": "2021-05-25T15:47:55.403966Z",
+      "publicationTime": "2018-06-27T16:11:53.712324Z",
+      "disclosureTime": "2019-12-03T15:15:00Z",
+      "id": "SNYK-UBUNTU2104-SHADOW-1276429",
+      "nvdSeverity": "medium",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "shadow/login@1:4.8.1-1ubuntu8"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "shadow/login",
+      "version": "1:4.8.1-1ubuntu8"
+    },
+    {
+      "title": "Time-of-check Time-of-use (TOCTOU)",
+      "credit": [
+        ""
+      ],
+      "packageName": "shadow",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `shadow` package. </i>\n\nshadow: TOCTOU (time-of-check time-of-use) race condition when copying and removing directory trees\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `shadow`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2013-4235)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [RedHat Bugzilla Bug](https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4235)\n- [RedHat CVE Database](https://access.redhat.com/security/cve/cve-2013-4235)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2013-4235"
+        ],
+        "CWE": [
+          "CWE-367"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 4.7,
+      "CVSSv3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2013-4235"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "RedHat Bugzilla Bug",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4235"
+        },
+        {
+          "title": "RedHat CVE Database",
+          "url": "https://access.redhat.com/security/cve/cve-2013-4235"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2013-4235"
+        }
+      ],
+      "creationTime": "2021-04-27T05:51:31.450740Z",
+      "modificationTime": "2021-05-25T15:47:55.403966Z",
+      "publicationTime": "2018-06-27T16:11:53.712324Z",
+      "disclosureTime": "2019-12-03T15:15:00Z",
+      "id": "SNYK-UBUNTU2104-SHADOW-1276429",
+      "nvdSeverity": "medium",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "util-linux/mount@2.36.1-7ubuntu2",
+        "util-linux@2.36.1-7ubuntu2",
+        "shadow/login@1:4.8.1-1ubuntu8"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "shadow/login",
+      "version": "1:4.8.1-1ubuntu8"
+    },
+    {
+      "title": "Information Exposure",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2018-20839"
+        ],
+        "CWE": [
+          "CWE-200"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
+        },
+        {
+          "title": "GitHub Commit",
+          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/systemd/systemd/pull/12378"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "Netapp Security Advisory",
+          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/108389"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
+        }
+      ],
+      "creationTime": "2021-04-27T04:12:42.709856Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2019-05-17T04:29:00Z",
+      "disclosureTime": "2019-05-17T04:29:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
+      "nvdSeverity": "critical",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "systemd/libsystemd0@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libsystemd0",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Authentication Bypass",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nAn exploitable denial-of-service vulnerability exists in Systemd 245. A specially crafted DHCP FORCERENEW packet can cause a server running the DHCP client to be vulnerable to a DHCP ACK spoofing attack. An attacker can forge a pair of FORCERENEW and DCHP ACK packets to reconfigure the server.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529)\n- [MISC](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2020-13529"
+        ],
+        "CWE": [
+          "CWE-290"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 6.1,
+      "CVSSv3": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529"
+        },
+        {
+          "title": "MISC",
+          "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142"
+        }
+      ],
+      "creationTime": "2021-05-11T15:38:37.457907Z",
+      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "publicationTime": "2021-05-11T15:38:36.815857Z",
+      "disclosureTime": "2021-05-10T16:15:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
+      "nvdSeverity": "medium",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "systemd/libsystemd0@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libsystemd0",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Information Exposure",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2018-20839"
+        ],
+        "CWE": [
+          "CWE-200"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
+        },
+        {
+          "title": "GitHub Commit",
+          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/systemd/systemd/pull/12378"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "Netapp Security Advisory",
+          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/108389"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
+        }
+      ],
+      "creationTime": "2021-04-27T04:12:42.709856Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2019-05-17T04:29:00Z",
+      "disclosureTime": "2019-05-17T04:29:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
+      "nvdSeverity": "critical",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "systemd/libsystemd0@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libsystemd0",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Authentication Bypass",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nAn exploitable denial-of-service vulnerability exists in Systemd 245. A specially crafted DHCP FORCERENEW packet can cause a server running the DHCP client to be vulnerable to a DHCP ACK spoofing attack. An attacker can forge a pair of FORCERENEW and DCHP ACK packets to reconfigure the server.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529)\n- [MISC](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2020-13529"
+        ],
+        "CWE": [
+          "CWE-290"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 6.1,
+      "CVSSv3": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529"
+        },
+        {
+          "title": "MISC",
+          "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142"
+        }
+      ],
+      "creationTime": "2021-05-11T15:38:37.457907Z",
+      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "publicationTime": "2021-05-11T15:38:36.815857Z",
+      "disclosureTime": "2021-05-10T16:15:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
+      "nvdSeverity": "medium",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "systemd/libsystemd0@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libsystemd0",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Information Exposure",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2018-20839"
+        ],
+        "CWE": [
+          "CWE-200"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
+        },
+        {
+          "title": "GitHub Commit",
+          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/systemd/systemd/pull/12378"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "Netapp Security Advisory",
+          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/108389"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
+        }
+      ],
+      "creationTime": "2021-04-27T04:12:42.709856Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2019-05-17T04:29:00Z",
+      "disclosureTime": "2019-05-17T04:29:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
+      "nvdSeverity": "critical",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "procps/libprocps8@2:3.3.16-5ubuntu3",
+        "systemd/libsystemd0@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libsystemd0",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Authentication Bypass",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nAn exploitable denial-of-service vulnerability exists in Systemd 245. A specially crafted DHCP FORCERENEW packet can cause a server running the DHCP client to be vulnerable to a DHCP ACK spoofing attack. An attacker can forge a pair of FORCERENEW and DCHP ACK packets to reconfigure the server.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529)\n- [MISC](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2020-13529"
+        ],
+        "CWE": [
+          "CWE-290"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 6.1,
+      "CVSSv3": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529"
+        },
+        {
+          "title": "MISC",
+          "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142"
+        }
+      ],
+      "creationTime": "2021-05-11T15:38:37.457907Z",
+      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "publicationTime": "2021-05-11T15:38:36.815857Z",
+      "disclosureTime": "2021-05-10T16:15:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
+      "nvdSeverity": "medium",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "procps/libprocps8@2:3.3.16-5ubuntu3",
+        "systemd/libsystemd0@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libsystemd0",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Information Exposure",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2018-20839"
+        ],
+        "CWE": [
+          "CWE-200"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
+        },
+        {
+          "title": "GitHub Commit",
+          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/systemd/systemd/pull/12378"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "Netapp Security Advisory",
+          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/108389"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
+        }
+      ],
+      "creationTime": "2021-04-27T04:12:42.709856Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2019-05-17T04:29:00Z",
+      "disclosureTime": "2019-05-17T04:29:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
+      "nvdSeverity": "critical",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "util-linux/bsdutils@1:2.36.1-7ubuntu2",
+        "systemd/libsystemd0@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libsystemd0",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Authentication Bypass",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nAn exploitable denial-of-service vulnerability exists in Systemd 245. A specially crafted DHCP FORCERENEW packet can cause a server running the DHCP client to be vulnerable to a DHCP ACK spoofing attack. An attacker can forge a pair of FORCERENEW and DCHP ACK packets to reconfigure the server.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529)\n- [MISC](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2020-13529"
+        ],
+        "CWE": [
+          "CWE-290"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 6.1,
+      "CVSSv3": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529"
+        },
+        {
+          "title": "MISC",
+          "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142"
+        }
+      ],
+      "creationTime": "2021-05-11T15:38:37.457907Z",
+      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "publicationTime": "2021-05-11T15:38:36.815857Z",
+      "disclosureTime": "2021-05-10T16:15:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
+      "nvdSeverity": "medium",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "util-linux/bsdutils@1:2.36.1-7ubuntu2",
+        "systemd/libsystemd0@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libsystemd0",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Information Exposure",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2018-20839"
+        ],
+        "CWE": [
+          "CWE-200"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
+        },
+        {
+          "title": "GitHub Commit",
+          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/systemd/systemd/pull/12378"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "Netapp Security Advisory",
+          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/108389"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
+        }
+      ],
+      "creationTime": "2021-04-27T04:12:42.709856Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2019-05-17T04:29:00Z",
+      "disclosureTime": "2019-05-17T04:29:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
+      "nvdSeverity": "critical",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "apt/libapt-pkg6.0@2.2.3",
+        "systemd/libsystemd0@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libsystemd0",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Authentication Bypass",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nAn exploitable denial-of-service vulnerability exists in Systemd 245. A specially crafted DHCP FORCERENEW packet can cause a server running the DHCP client to be vulnerable to a DHCP ACK spoofing attack. An attacker can forge a pair of FORCERENEW and DCHP ACK packets to reconfigure the server.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529)\n- [MISC](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2020-13529"
+        ],
+        "CWE": [
+          "CWE-290"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 6.1,
+      "CVSSv3": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529"
+        },
+        {
+          "title": "MISC",
+          "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142"
+        }
+      ],
+      "creationTime": "2021-05-11T15:38:37.457907Z",
+      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "publicationTime": "2021-05-11T15:38:36.815857Z",
+      "disclosureTime": "2021-05-10T16:15:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
+      "nvdSeverity": "medium",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "apt/libapt-pkg6.0@2.2.3",
+        "systemd/libsystemd0@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libsystemd0",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Information Exposure",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2018-20839"
+        ],
+        "CWE": [
+          "CWE-200"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
+        },
+        {
+          "title": "GitHub Commit",
+          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/systemd/systemd/pull/12378"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "Netapp Security Advisory",
+          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/108389"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
+        }
+      ],
+      "creationTime": "2021-04-27T04:12:42.709856Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2019-05-17T04:29:00Z",
+      "disclosureTime": "2019-05-17T04:29:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
+      "nvdSeverity": "critical",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "util-linux/mount@2.36.1-7ubuntu2",
+        "util-linux@2.36.1-7ubuntu2",
+        "systemd/libsystemd0@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libsystemd0",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Authentication Bypass",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nAn exploitable denial-of-service vulnerability exists in Systemd 245. A specially crafted DHCP FORCERENEW packet can cause a server running the DHCP client to be vulnerable to a DHCP ACK spoofing attack. An attacker can forge a pair of FORCERENEW and DCHP ACK packets to reconfigure the server.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529)\n- [MISC](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2020-13529"
+        ],
+        "CWE": [
+          "CWE-290"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 6.1,
+      "CVSSv3": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529"
+        },
+        {
+          "title": "MISC",
+          "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142"
+        }
+      ],
+      "creationTime": "2021-05-11T15:38:37.457907Z",
+      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "publicationTime": "2021-05-11T15:38:36.815857Z",
+      "disclosureTime": "2021-05-10T16:15:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
+      "nvdSeverity": "medium",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "util-linux/mount@2.36.1-7ubuntu2",
+        "util-linux@2.36.1-7ubuntu2",
+        "systemd/libsystemd0@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libsystemd0",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Information Exposure",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2018-20839"
+        ],
+        "CWE": [
+          "CWE-200"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
+        },
+        {
+          "title": "GitHub Commit",
+          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/systemd/systemd/pull/12378"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "Netapp Security Advisory",
+          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/108389"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
+        }
+      ],
+      "creationTime": "2021-04-27T04:12:42.709856Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2019-05-17T04:29:00Z",
+      "disclosureTime": "2019-05-17T04:29:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
+      "nvdSeverity": "critical",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "systemd/libudev1@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libudev1",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Authentication Bypass",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nAn exploitable denial-of-service vulnerability exists in Systemd 245. A specially crafted DHCP FORCERENEW packet can cause a server running the DHCP client to be vulnerable to a DHCP ACK spoofing attack. An attacker can forge a pair of FORCERENEW and DCHP ACK packets to reconfigure the server.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529)\n- [MISC](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2020-13529"
+        ],
+        "CWE": [
+          "CWE-290"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 6.1,
+      "CVSSv3": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529"
+        },
+        {
+          "title": "MISC",
+          "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142"
+        }
+      ],
+      "creationTime": "2021-05-11T15:38:37.457907Z",
+      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "publicationTime": "2021-05-11T15:38:36.815857Z",
+      "disclosureTime": "2021-05-10T16:15:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
+      "nvdSeverity": "medium",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "systemd/libudev1@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libudev1",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Information Exposure",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2018-20839"
+        ],
+        "CWE": [
+          "CWE-200"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
+        },
+        {
+          "title": "GitHub Commit",
+          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/systemd/systemd/pull/12378"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "Netapp Security Advisory",
+          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/108389"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
+        }
+      ],
+      "creationTime": "2021-04-27T04:12:42.709856Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2019-05-17T04:29:00Z",
+      "disclosureTime": "2019-05-17T04:29:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
+      "nvdSeverity": "critical",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "apt/libapt-pkg6.0@2.2.3",
+        "systemd/libudev1@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libudev1",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Authentication Bypass",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nAn exploitable denial-of-service vulnerability exists in Systemd 245. A specially crafted DHCP FORCERENEW packet can cause a server running the DHCP client to be vulnerable to a DHCP ACK spoofing attack. An attacker can forge a pair of FORCERENEW and DCHP ACK packets to reconfigure the server.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529)\n- [MISC](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2020-13529"
+        ],
+        "CWE": [
+          "CWE-290"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 6.1,
+      "CVSSv3": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529"
+        },
+        {
+          "title": "MISC",
+          "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142"
+        }
+      ],
+      "creationTime": "2021-05-11T15:38:37.457907Z",
+      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "publicationTime": "2021-05-11T15:38:36.815857Z",
+      "disclosureTime": "2021-05-10T16:15:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
+      "nvdSeverity": "medium",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "apt/libapt-pkg6.0@2.2.3",
+        "systemd/libudev1@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libudev1",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Information Exposure",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2018-20839"
+        ],
+        "CWE": [
+          "CWE-200"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
+        },
+        {
+          "title": "GitHub Commit",
+          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
+        },
+        {
+          "title": "GitHub PR",
+          "url": "https://github.com/systemd/systemd/pull/12378"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
+        },
+        {
+          "title": "MLIST",
+          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
+        },
+        {
+          "title": "Netapp Security Advisory",
+          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
+        },
+        {
+          "title": "Security Focus",
+          "url": "http://www.securityfocus.com/bid/108389"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
+        }
+      ],
+      "creationTime": "2021-04-27T04:12:42.709856Z",
+      "modificationTime": "2021-05-09T12:30:27.173616Z",
+      "publicationTime": "2019-05-17T04:29:00Z",
+      "disclosureTime": "2019-05-17T04:29:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
+      "nvdSeverity": "critical",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "util-linux/mount@2.36.1-7ubuntu2",
+        "util-linux@2.36.1-7ubuntu2",
+        "systemd/libudev1@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libudev1",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "Authentication Bypass",
+      "credit": [
+        ""
+      ],
+      "packageName": "systemd",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nAn exploitable denial-of-service vulnerability exists in Systemd 245. A specially crafted DHCP FORCERENEW packet can cause a server running the DHCP client to be vulnerable to a DHCP ACK spoofing attack. An attacker can forge a pair of FORCERENEW and DCHP ACK packets to reconfigure the server.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529)\n- [MISC](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2020-13529"
+        ],
+        "CWE": [
+          "CWE-290"
+        ]
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": 6.1,
+      "CVSSv3": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529"
+        },
+        {
+          "title": "MISC",
+          "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142"
+        }
+      ],
+      "creationTime": "2021-05-11T15:38:37.457907Z",
+      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "publicationTime": "2021-05-11T15:38:36.815857Z",
+      "disclosureTime": "2021-05-10T16:15:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
+      "nvdSeverity": "medium",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "util-linux/mount@2.36.1-7ubuntu2",
+        "util-linux@2.36.1-7ubuntu2",
+        "systemd/libudev1@247.3-3ubuntu3"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "systemd/libudev1",
+      "version": "247.3-3ubuntu3"
+    },
+    {
+      "title": "NULL Pointer Dereference",
+      "credit": [
+        ""
+      ],
+      "packageName": "tar",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `tar` package. </i>\n\npax_decode_header in sparse.c in GNU Tar before 1.32 had a NULL pointer dereference when parsing certain archives that have malformed extended headers.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `tar`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2019-9923)\n- [MISC](http://git.savannah.gnu.org/cgit/tar.git/commit/?id=cb07844454d8cc9fb21f53ace75975f91185a120)\n- [MISC](http://savannah.gnu.org/bugs/?55369)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/tar/+bug/1810241)\n- [OpenSuse Security Announcement](http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00077.html)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-9923)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2019-9923"
+        ],
+        "CWE": [
+          "CWE-476"
+        ]
+      },
+      "severity": "low",
+      "severityWithCritical": "low",
+      "cvssScore": 7.5,
+      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "patches": [],
+      "references": [
+        {
+          "title": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2019-9923"
+        },
+        {
+          "title": "MISC",
+          "url": "http://git.savannah.gnu.org/cgit/tar.git/commit/?id=cb07844454d8cc9fb21f53ace75975f91185a120"
+        },
+        {
+          "title": "MISC",
+          "url": "http://savannah.gnu.org/bugs/?55369"
+        },
+        {
+          "title": "MISC",
+          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/tar/%2Bbug/1810241"
+        },
+        {
+          "title": "OpenSuse Security Announcement",
+          "url": "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00077.html"
+        },
+        {
+          "title": "Ubuntu CVE Tracker",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2019-9923"
+        }
+      ],
+      "creationTime": "2021-04-26T16:43:57.249358Z",
+      "modificationTime": "2021-06-05T16:38:26.030860Z",
+      "publicationTime": "2019-03-22T08:29:00Z",
+      "disclosureTime": "2019-03-22T08:29:00Z",
+      "id": "SNYK-UBUNTU2104-TAR-1262135",
+      "nvdSeverity": "high",
+      "relativeImportance": "low",
+      "semver": {
+        "vulnerable": [
+          "*"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "meta-common-packages@meta",
+        "tar@1.34+dfsg-1build1"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "tar",
+      "version": "1.34+dfsg-1build1"
+    }
+  ],
+  "ok": false,
+  "dependencyCount": 93,
+  "policy": "# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.\nversion: v1.19.0\nignore: {}\npatch: {}\n",
+  "isPrivate": true,
+  "licensesPolicy": null,
+  "packageManager": "deb",
+  "ignoreSettings": null,
+  "docker": {},
+  "summary": "51 vulnerable dependency paths",
+  "filesystemPolicy": false,
+  "filtered": {
+    "ignore": [],
+    "patch": []
+  },
+  "uniqueCount": 17,
+  "projectName": "docker-image|ubuntu",
+  "platform": "linux/amd64",
+  "path": "ubuntu:21.04"
+}
