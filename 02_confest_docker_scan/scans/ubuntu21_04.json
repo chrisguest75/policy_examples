@@ -1308,7 +1308,7 @@
       "version": "3.7.1-3ubuntu1"
     },
     {
-      "title": "CVE-2021-33560",
+      "title": "Information Exposure",
       "credit": [
         ""
       ],
@@ -1321,12 +1321,14 @@
         "CVE": [
           "CVE-2021-33560"
         ],
-        "CWE": []
+        "CWE": [
+          "CWE-203"
+        ]
       },
       "severity": "low",
       "severityWithCritical": "low",
-      "cvssScore": null,
-      "CVSSv3": null,
+      "cvssScore": 7.5,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
       "patches": [],
       "references": [
         {
@@ -1351,11 +1353,11 @@
         }
       ],
       "creationTime": "2021-05-29T03:31:13.540813Z",
-      "modificationTime": "2021-06-11T15:31:37.807117Z",
+      "modificationTime": "2021-06-23T14:38:13.246993Z",
       "publicationTime": "2021-06-01T03:31:05.677383Z",
       "disclosureTime": "2021-06-08T11:15:00Z",
       "id": "SNYK-UBUNTU2104-LIBGCRYPT20-1297922",
-      "nvdSeverity": "low",
+      "nvdSeverity": "high",
       "relativeImportance": "low",
       "semver": {
         "vulnerable": [
@@ -1374,7 +1376,7 @@
       "version": "1.8.7-2ubuntu2"
     },
     {
-      "title": "CVE-2021-33560",
+      "title": "Information Exposure",
       "credit": [
         ""
       ],
@@ -1387,12 +1389,14 @@
         "CVE": [
           "CVE-2021-33560"
         ],
-        "CWE": []
+        "CWE": [
+          "CWE-203"
+        ]
       },
       "severity": "low",
       "severityWithCritical": "low",
-      "cvssScore": null,
-      "CVSSv3": null,
+      "cvssScore": 7.5,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
       "patches": [],
       "references": [
         {
@@ -1417,11 +1421,11 @@
         }
       ],
       "creationTime": "2021-05-29T03:31:13.540813Z",
-      "modificationTime": "2021-06-11T15:31:37.807117Z",
+      "modificationTime": "2021-06-23T14:38:13.246993Z",
       "publicationTime": "2021-06-01T03:31:05.677383Z",
       "disclosureTime": "2021-06-08T11:15:00Z",
       "id": "SNYK-UBUNTU2104-LIBGCRYPT20-1297922",
-      "nvdSeverity": "low",
+      "nvdSeverity": "high",
       "relativeImportance": "low",
       "semver": {
         "vulnerable": [
@@ -1442,7 +1446,7 @@
       "version": "1.8.7-2ubuntu2"
     },
     {
-      "title": "CVE-2021-33560",
+      "title": "Information Exposure",
       "credit": [
         ""
       ],
@@ -1455,12 +1459,14 @@
         "CVE": [
           "CVE-2021-33560"
         ],
-        "CWE": []
+        "CWE": [
+          "CWE-203"
+        ]
       },
       "severity": "low",
       "severityWithCritical": "low",
-      "cvssScore": null,
-      "CVSSv3": null,
+      "cvssScore": 7.5,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
       "patches": [],
       "references": [
         {
@@ -1485,11 +1491,11 @@
         }
       ],
       "creationTime": "2021-05-29T03:31:13.540813Z",
-      "modificationTime": "2021-06-11T15:31:37.807117Z",
+      "modificationTime": "2021-06-23T14:38:13.246993Z",
       "publicationTime": "2021-06-01T03:31:05.677383Z",
       "disclosureTime": "2021-06-08T11:15:00Z",
       "id": "SNYK-UBUNTU2104-LIBGCRYPT20-1297922",
-      "nvdSeverity": "low",
+      "nvdSeverity": "high",
       "relativeImportance": "low",
       "semver": {
         "vulnerable": [
@@ -1510,7 +1516,7 @@
       "version": "1.8.7-2ubuntu2"
     },
     {
-      "title": "CVE-2021-33560",
+      "title": "Information Exposure",
       "credit": [
         ""
       ],
@@ -1523,12 +1529,14 @@
         "CVE": [
           "CVE-2021-33560"
         ],
-        "CWE": []
+        "CWE": [
+          "CWE-203"
+        ]
       },
       "severity": "low",
       "severityWithCritical": "low",
-      "cvssScore": null,
-      "CVSSv3": null,
+      "cvssScore": 7.5,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
       "patches": [],
       "references": [
         {
@@ -1553,11 +1561,11 @@
         }
       ],
       "creationTime": "2021-05-29T03:31:13.540813Z",
-      "modificationTime": "2021-06-11T15:31:37.807117Z",
+      "modificationTime": "2021-06-23T14:38:13.246993Z",
       "publicationTime": "2021-06-01T03:31:05.677383Z",
       "disclosureTime": "2021-06-08T11:15:00Z",
       "id": "SNYK-UBUNTU2104-LIBGCRYPT20-1297922",
-      "nvdSeverity": "low",
+      "nvdSeverity": "high",
       "relativeImportance": "low",
       "semver": {
         "vulnerable": [
@@ -1737,7 +1745,7 @@
       "version": "4.16.0-2"
     },
     {
-      "title": "CVE-2021-3520",
+      "title": "Out-of-bounds Write",
       "credit": [
         ""
       ],
@@ -1750,12 +1758,15 @@
         "CVE": [
           "CVE-2021-3520"
         ],
-        "CWE": []
+        "CWE": [
+          "CWE-190",
+          "CWE-787"
+        ]
       },
       "severity": "medium",
       "severityWithCritical": "medium",
-      "cvssScore": null,
-      "CVSSv3": null,
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "patches": [],
       "references": [
         {
@@ -1768,11 +1779,11 @@
         }
       ],
       "creationTime": "2021-05-02T15:34:44.082309Z",
-      "modificationTime": "2021-06-05T16:17:10.742797Z",
+      "modificationTime": "2021-06-23T14:36:37.908448Z",
       "publicationTime": "2021-05-21T03:31:03.032643Z",
       "disclosureTime": "2021-06-02T13:15:00Z",
       "id": "SNYK-UBUNTU2104-LZ4-1278681",
-      "nvdSeverity": "low",
+      "nvdSeverity": "critical",
       "relativeImportance": "medium",
       "semver": {
         "vulnerable": [
@@ -1792,7 +1803,7 @@
       "nearestFixedInVersion": "1.9.3-1ubuntu0.1"
     },
     {
-      "title": "CVE-2021-3520",
+      "title": "Out-of-bounds Write",
       "credit": [
         ""
       ],
@@ -1805,12 +1816,15 @@
         "CVE": [
           "CVE-2021-3520"
         ],
-        "CWE": []
+        "CWE": [
+          "CWE-190",
+          "CWE-787"
+        ]
       },
       "severity": "medium",
       "severityWithCritical": "medium",
-      "cvssScore": null,
-      "CVSSv3": null,
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "patches": [],
       "references": [
         {
@@ -1823,11 +1837,11 @@
         }
       ],
       "creationTime": "2021-05-02T15:34:44.082309Z",
-      "modificationTime": "2021-06-05T16:17:10.742797Z",
+      "modificationTime": "2021-06-23T14:36:37.908448Z",
       "publicationTime": "2021-05-21T03:31:03.032643Z",
       "disclosureTime": "2021-06-02T13:15:00Z",
       "id": "SNYK-UBUNTU2104-LZ4-1278681",
-      "nvdSeverity": "low",
+      "nvdSeverity": "critical",
       "relativeImportance": "medium",
       "semver": {
         "vulnerable": [
@@ -1849,7 +1863,7 @@
       "nearestFixedInVersion": "1.9.3-1ubuntu0.1"
     },
     {
-      "title": "CVE-2021-3520",
+      "title": "Out-of-bounds Write",
       "credit": [
         ""
       ],
@@ -1862,12 +1876,15 @@
         "CVE": [
           "CVE-2021-3520"
         ],
-        "CWE": []
+        "CWE": [
+          "CWE-190",
+          "CWE-787"
+        ]
       },
       "severity": "medium",
       "severityWithCritical": "medium",
-      "cvssScore": null,
-      "CVSSv3": null,
+      "cvssScore": 9.8,
+      "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "patches": [],
       "references": [
         {
@@ -1880,11 +1897,11 @@
         }
       ],
       "creationTime": "2021-05-02T15:34:44.082309Z",
-      "modificationTime": "2021-06-05T16:17:10.742797Z",
+      "modificationTime": "2021-06-23T14:36:37.908448Z",
       "publicationTime": "2021-05-21T03:31:03.032643Z",
       "disclosureTime": "2021-06-02T13:15:00Z",
       "id": "SNYK-UBUNTU2104-LZ4-1278681",
-      "nvdSeverity": "low",
+      "nvdSeverity": "critical",
       "relativeImportance": "medium",
       "semver": {
         "vulnerable": [
@@ -1905,6 +1922,268 @@
       "name": "lz4/liblz4-1",
       "version": "1.9.3-1build1",
       "nearestFixedInVersion": "1.9.3-1ubuntu0.1"
+    },
+    {
+      "title": "CVE-2021-3580",
+      "credit": [
+        ""
+      ],
+      "packageName": "nettle",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `nettle` package. </i>\n<i> See `Remediation` section below for `Ubuntu:21.04` relevant versions. </i>\n\nRemote crash in RSA decryption via manipulated ciphertext\n## Remediation\nUpgrade `Ubuntu:21.04` `nettle` to version 3.7-2.1ubuntu1.1 or higher.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3580)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-3580"
+        ],
+        "CWE": []
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": null,
+      "CVSSv3": null,
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3580"
+        }
+      ],
+      "creationTime": "2021-06-11T03:31:37.057550Z",
+      "modificationTime": "2021-06-17T15:43:26.648257Z",
+      "publicationTime": "2021-06-14T15:31:03.362946Z",
+      "disclosureTime": null,
+      "id": "SNYK-UBUNTU2104-NETTLE-1303243",
+      "nvdSeverity": "low",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "<3.7-2.1ubuntu1.1"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "nettle/libnettle8@3.7-2.1ubuntu1"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "nettle/libnettle8",
+      "version": "3.7-2.1ubuntu1",
+      "nearestFixedInVersion": "3.7-2.1ubuntu1.1"
+    },
+    {
+      "title": "CVE-2021-3580",
+      "credit": [
+        ""
+      ],
+      "packageName": "nettle",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `nettle` package. </i>\n<i> See `Remediation` section below for `Ubuntu:21.04` relevant versions. </i>\n\nRemote crash in RSA decryption via manipulated ciphertext\n## Remediation\nUpgrade `Ubuntu:21.04` `nettle` to version 3.7-2.1ubuntu1.1 or higher.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3580)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-3580"
+        ],
+        "CWE": []
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": null,
+      "CVSSv3": null,
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3580"
+        }
+      ],
+      "creationTime": "2021-06-11T03:31:37.057550Z",
+      "modificationTime": "2021-06-17T15:43:26.648257Z",
+      "publicationTime": "2021-06-14T15:31:03.362946Z",
+      "disclosureTime": null,
+      "id": "SNYK-UBUNTU2104-NETTLE-1303243",
+      "nvdSeverity": "low",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "<3.7-2.1ubuntu1.1"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "gnutls28/libgnutls30@3.7.1-3ubuntu1",
+        "nettle/libnettle8@3.7-2.1ubuntu1"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "nettle/libnettle8",
+      "version": "3.7-2.1ubuntu1",
+      "nearestFixedInVersion": "3.7-2.1ubuntu1.1"
+    },
+    {
+      "title": "CVE-2021-3580",
+      "credit": [
+        ""
+      ],
+      "packageName": "nettle",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `nettle` package. </i>\n<i> See `Remediation` section below for `Ubuntu:21.04` relevant versions. </i>\n\nRemote crash in RSA decryption via manipulated ciphertext\n## Remediation\nUpgrade `Ubuntu:21.04` `nettle` to version 3.7-2.1ubuntu1.1 or higher.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3580)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-3580"
+        ],
+        "CWE": []
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": null,
+      "CVSSv3": null,
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3580"
+        }
+      ],
+      "creationTime": "2021-06-11T03:31:37.057550Z",
+      "modificationTime": "2021-06-17T15:43:26.648257Z",
+      "publicationTime": "2021-06-14T15:31:03.362946Z",
+      "disclosureTime": null,
+      "id": "SNYK-UBUNTU2104-NETTLE-1303243",
+      "nvdSeverity": "low",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "<3.7-2.1ubuntu1.1"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "gnutls28/libgnutls30@3.7.1-3ubuntu1",
+        "nettle/libhogweed6@3.7-2.1ubuntu1",
+        "nettle/libnettle8@3.7-2.1ubuntu1"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "nettle/libnettle8",
+      "version": "3.7-2.1ubuntu1",
+      "nearestFixedInVersion": "3.7-2.1ubuntu1.1"
+    },
+    {
+      "title": "CVE-2021-3580",
+      "credit": [
+        ""
+      ],
+      "packageName": "nettle",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `nettle` package. </i>\n<i> See `Remediation` section below for `Ubuntu:21.04` relevant versions. </i>\n\nRemote crash in RSA decryption via manipulated ciphertext\n## Remediation\nUpgrade `Ubuntu:21.04` `nettle` to version 3.7-2.1ubuntu1.1 or higher.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3580)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-3580"
+        ],
+        "CWE": []
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": null,
+      "CVSSv3": null,
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3580"
+        }
+      ],
+      "creationTime": "2021-06-11T03:31:37.057550Z",
+      "modificationTime": "2021-06-17T15:43:26.648257Z",
+      "publicationTime": "2021-06-14T15:31:03.362946Z",
+      "disclosureTime": null,
+      "id": "SNYK-UBUNTU2104-NETTLE-1303243",
+      "nvdSeverity": "low",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "<3.7-2.1ubuntu1.1"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "nettle/libhogweed6@3.7-2.1ubuntu1"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "nettle/libhogweed6",
+      "version": "3.7-2.1ubuntu1",
+      "nearestFixedInVersion": "3.7-2.1ubuntu1.1"
+    },
+    {
+      "title": "CVE-2021-3580",
+      "credit": [
+        ""
+      ],
+      "packageName": "nettle",
+      "language": "linux",
+      "packageManager": "ubuntu:21.04",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `nettle` package. </i>\n<i> See `Remediation` section below for `Ubuntu:21.04` relevant versions. </i>\n\nRemote crash in RSA decryption via manipulated ciphertext\n## Remediation\nUpgrade `Ubuntu:21.04` `nettle` to version 3.7-2.1ubuntu1.1 or higher.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3580)\n",
+      "identifiers": {
+        "ALTERNATIVE": [],
+        "CVE": [
+          "CVE-2021-3580"
+        ],
+        "CWE": []
+      },
+      "severity": "medium",
+      "severityWithCritical": "medium",
+      "cvssScore": null,
+      "CVSSv3": null,
+      "patches": [],
+      "references": [
+        {
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2021-3580"
+        }
+      ],
+      "creationTime": "2021-06-11T03:31:37.057550Z",
+      "modificationTime": "2021-06-17T15:43:26.648257Z",
+      "publicationTime": "2021-06-14T15:31:03.362946Z",
+      "disclosureTime": null,
+      "id": "SNYK-UBUNTU2104-NETTLE-1303243",
+      "nvdSeverity": "low",
+      "relativeImportance": "medium",
+      "semver": {
+        "vulnerable": [
+          "<3.7-2.1ubuntu1.1"
+        ]
+      },
+      "exploit": "Not Defined",
+      "from": [
+        "docker-image|ubuntu@21.04",
+        "apt@2.2.3",
+        "gnutls28/libgnutls30@3.7.1-3ubuntu1",
+        "nettle/libhogweed6@3.7-2.1ubuntu1"
+      ],
+      "upgradePath": [],
+      "isUpgradable": false,
+      "isPatchable": false,
+      "name": "nettle/libhogweed6",
+      "version": "3.7-2.1ubuntu1",
+      "nearestFixedInVersion": "3.7-2.1ubuntu1.1"
     },
     {
       "title": "Out-of-bounds Read",
@@ -2496,68 +2775,44 @@
       "version": "1:4.8.1-1ubuntu8"
     },
     {
-      "title": "Information Exposure",
+      "title": "Authentication Bypass",
       "credit": [
         ""
       ],
       "packageName": "systemd",
       "language": "linux",
       "packageManager": "ubuntu:21.04",
-      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
+      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nAn exploitable denial-of-service vulnerability exists in Systemd 245. A specially crafted DHCP FORCERENEW packet can cause a server running the DHCP client to be vulnerable to a DHCP ACK spoofing attack. An attacker can forge a pair of FORCERENEW and DCHP ACK packets to reconfigure the server.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529)\n- [MISC](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142)\n",
       "identifiers": {
         "ALTERNATIVE": [],
         "CVE": [
-          "CVE-2018-20839"
+          "CVE-2020-13529"
         ],
         "CWE": [
-          "CWE-200"
+          "CWE-290"
         ]
       },
       "severity": "medium",
       "severityWithCritical": "medium",
-      "cvssScore": 9.8,
-      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cvssScore": 6.1,
+      "CVSSv3": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
       "patches": [],
       "references": [
         {
-          "title": "Debian Security Tracker",
-          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
-        },
-        {
-          "title": "GitHub Commit",
-          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
-        },
-        {
-          "title": "GitHub PR",
-          "url": "https://github.com/systemd/systemd/pull/12378"
+          "title": "ADVISORY",
+          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529"
         },
         {
           "title": "MISC",
-          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
-        },
-        {
-          "title": "MLIST",
-          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
-        },
-        {
-          "title": "Netapp Security Advisory",
-          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
-        },
-        {
-          "title": "Security Focus",
-          "url": "http://www.securityfocus.com/bid/108389"
-        },
-        {
-          "title": "Ubuntu CVE Tracker",
-          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
+          "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142"
         }
       ],
-      "creationTime": "2021-04-27T04:12:42.709856Z",
-      "modificationTime": "2021-05-09T12:30:27.173616Z",
-      "publicationTime": "2019-05-17T04:29:00Z",
-      "disclosureTime": "2019-05-17T04:29:00Z",
-      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
-      "nvdSeverity": "critical",
+      "creationTime": "2021-05-11T15:38:37.457907Z",
+      "modificationTime": "2021-06-14T15:30:57.315709Z",
+      "publicationTime": "2021-05-11T15:38:36.815857Z",
+      "disclosureTime": "2021-05-10T16:15:00Z",
+      "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
+      "nvdSeverity": "medium",
       "relativeImportance": "medium",
       "semver": {
         "vulnerable": [
@@ -2609,91 +2864,11 @@
         }
       ],
       "creationTime": "2021-05-11T15:38:37.457907Z",
-      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "modificationTime": "2021-06-14T15:30:57.315709Z",
       "publicationTime": "2021-05-11T15:38:36.815857Z",
       "disclosureTime": "2021-05-10T16:15:00Z",
       "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
       "nvdSeverity": "medium",
-      "relativeImportance": "medium",
-      "semver": {
-        "vulnerable": [
-          "*"
-        ]
-      },
-      "exploit": "Not Defined",
-      "from": [
-        "docker-image|ubuntu@21.04",
-        "systemd/libsystemd0@247.3-3ubuntu3"
-      ],
-      "upgradePath": [],
-      "isUpgradable": false,
-      "isPatchable": false,
-      "name": "systemd/libsystemd0",
-      "version": "247.3-3ubuntu3"
-    },
-    {
-      "title": "Information Exposure",
-      "credit": [
-        ""
-      ],
-      "packageName": "systemd",
-      "language": "linux",
-      "packageManager": "ubuntu:21.04",
-      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
-      "identifiers": {
-        "ALTERNATIVE": [],
-        "CVE": [
-          "CVE-2018-20839"
-        ],
-        "CWE": [
-          "CWE-200"
-        ]
-      },
-      "severity": "medium",
-      "severityWithCritical": "medium",
-      "cvssScore": 9.8,
-      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "patches": [],
-      "references": [
-        {
-          "title": "Debian Security Tracker",
-          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
-        },
-        {
-          "title": "GitHub Commit",
-          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
-        },
-        {
-          "title": "GitHub PR",
-          "url": "https://github.com/systemd/systemd/pull/12378"
-        },
-        {
-          "title": "MISC",
-          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
-        },
-        {
-          "title": "MLIST",
-          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
-        },
-        {
-          "title": "Netapp Security Advisory",
-          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
-        },
-        {
-          "title": "Security Focus",
-          "url": "http://www.securityfocus.com/bid/108389"
-        },
-        {
-          "title": "Ubuntu CVE Tracker",
-          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
-        }
-      ],
-      "creationTime": "2021-04-27T04:12:42.709856Z",
-      "modificationTime": "2021-05-09T12:30:27.173616Z",
-      "publicationTime": "2019-05-17T04:29:00Z",
-      "disclosureTime": "2019-05-17T04:29:00Z",
-      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
-      "nvdSeverity": "critical",
       "relativeImportance": "medium",
       "semver": {
         "vulnerable": [
@@ -2746,92 +2921,11 @@
         }
       ],
       "creationTime": "2021-05-11T15:38:37.457907Z",
-      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "modificationTime": "2021-06-14T15:30:57.315709Z",
       "publicationTime": "2021-05-11T15:38:36.815857Z",
       "disclosureTime": "2021-05-10T16:15:00Z",
       "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
       "nvdSeverity": "medium",
-      "relativeImportance": "medium",
-      "semver": {
-        "vulnerable": [
-          "*"
-        ]
-      },
-      "exploit": "Not Defined",
-      "from": [
-        "docker-image|ubuntu@21.04",
-        "apt@2.2.3",
-        "systemd/libsystemd0@247.3-3ubuntu3"
-      ],
-      "upgradePath": [],
-      "isUpgradable": false,
-      "isPatchable": false,
-      "name": "systemd/libsystemd0",
-      "version": "247.3-3ubuntu3"
-    },
-    {
-      "title": "Information Exposure",
-      "credit": [
-        ""
-      ],
-      "packageName": "systemd",
-      "language": "linux",
-      "packageManager": "ubuntu:21.04",
-      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
-      "identifiers": {
-        "ALTERNATIVE": [],
-        "CVE": [
-          "CVE-2018-20839"
-        ],
-        "CWE": [
-          "CWE-200"
-        ]
-      },
-      "severity": "medium",
-      "severityWithCritical": "medium",
-      "cvssScore": 9.8,
-      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "patches": [],
-      "references": [
-        {
-          "title": "Debian Security Tracker",
-          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
-        },
-        {
-          "title": "GitHub Commit",
-          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
-        },
-        {
-          "title": "GitHub PR",
-          "url": "https://github.com/systemd/systemd/pull/12378"
-        },
-        {
-          "title": "MISC",
-          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
-        },
-        {
-          "title": "MLIST",
-          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
-        },
-        {
-          "title": "Netapp Security Advisory",
-          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
-        },
-        {
-          "title": "Security Focus",
-          "url": "http://www.securityfocus.com/bid/108389"
-        },
-        {
-          "title": "Ubuntu CVE Tracker",
-          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
-        }
-      ],
-      "creationTime": "2021-04-27T04:12:42.709856Z",
-      "modificationTime": "2021-05-09T12:30:27.173616Z",
-      "publicationTime": "2019-05-17T04:29:00Z",
-      "disclosureTime": "2019-05-17T04:29:00Z",
-      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
-      "nvdSeverity": "critical",
       "relativeImportance": "medium",
       "semver": {
         "vulnerable": [
@@ -2884,145 +2978,7 @@
         }
       ],
       "creationTime": "2021-05-11T15:38:37.457907Z",
-      "modificationTime": "2021-06-03T03:31:59.622964Z",
-      "publicationTime": "2021-05-11T15:38:36.815857Z",
-      "disclosureTime": "2021-05-10T16:15:00Z",
-      "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
-      "nvdSeverity": "medium",
-      "relativeImportance": "medium",
-      "semver": {
-        "vulnerable": [
-          "*"
-        ]
-      },
-      "exploit": "Not Defined",
-      "from": [
-        "docker-image|ubuntu@21.04",
-        "procps/libprocps8@2:3.3.16-5ubuntu3",
-        "systemd/libsystemd0@247.3-3ubuntu3"
-      ],
-      "upgradePath": [],
-      "isUpgradable": false,
-      "isPatchable": false,
-      "name": "systemd/libsystemd0",
-      "version": "247.3-3ubuntu3"
-    },
-    {
-      "title": "Information Exposure",
-      "credit": [
-        ""
-      ],
-      "packageName": "systemd",
-      "language": "linux",
-      "packageManager": "ubuntu:21.04",
-      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
-      "identifiers": {
-        "ALTERNATIVE": [],
-        "CVE": [
-          "CVE-2018-20839"
-        ],
-        "CWE": [
-          "CWE-200"
-        ]
-      },
-      "severity": "medium",
-      "severityWithCritical": "medium",
-      "cvssScore": 9.8,
-      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "patches": [],
-      "references": [
-        {
-          "title": "Debian Security Tracker",
-          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
-        },
-        {
-          "title": "GitHub Commit",
-          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
-        },
-        {
-          "title": "GitHub PR",
-          "url": "https://github.com/systemd/systemd/pull/12378"
-        },
-        {
-          "title": "MISC",
-          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
-        },
-        {
-          "title": "MLIST",
-          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
-        },
-        {
-          "title": "Netapp Security Advisory",
-          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
-        },
-        {
-          "title": "Security Focus",
-          "url": "http://www.securityfocus.com/bid/108389"
-        },
-        {
-          "title": "Ubuntu CVE Tracker",
-          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
-        }
-      ],
-      "creationTime": "2021-04-27T04:12:42.709856Z",
-      "modificationTime": "2021-05-09T12:30:27.173616Z",
-      "publicationTime": "2019-05-17T04:29:00Z",
-      "disclosureTime": "2019-05-17T04:29:00Z",
-      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
-      "nvdSeverity": "critical",
-      "relativeImportance": "medium",
-      "semver": {
-        "vulnerable": [
-          "*"
-        ]
-      },
-      "exploit": "Not Defined",
-      "from": [
-        "docker-image|ubuntu@21.04",
-        "util-linux/bsdutils@1:2.36.1-7ubuntu2",
-        "systemd/libsystemd0@247.3-3ubuntu3"
-      ],
-      "upgradePath": [],
-      "isUpgradable": false,
-      "isPatchable": false,
-      "name": "systemd/libsystemd0",
-      "version": "247.3-3ubuntu3"
-    },
-    {
-      "title": "Authentication Bypass",
-      "credit": [
-        ""
-      ],
-      "packageName": "systemd",
-      "language": "linux",
-      "packageManager": "ubuntu:21.04",
-      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nAn exploitable denial-of-service vulnerability exists in Systemd 245. A specially crafted DHCP FORCERENEW packet can cause a server running the DHCP client to be vulnerable to a DHCP ACK spoofing attack. An attacker can forge a pair of FORCERENEW and DCHP ACK packets to reconfigure the server.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [ADVISORY](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529)\n- [MISC](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142)\n",
-      "identifiers": {
-        "ALTERNATIVE": [],
-        "CVE": [
-          "CVE-2020-13529"
-        ],
-        "CWE": [
-          "CWE-290"
-        ]
-      },
-      "severity": "medium",
-      "severityWithCritical": "medium",
-      "cvssScore": 6.1,
-      "CVSSv3": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H",
-      "patches": [],
-      "references": [
-        {
-          "title": "ADVISORY",
-          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2020-13529"
-        },
-        {
-          "title": "MISC",
-          "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2020-1142"
-        }
-      ],
-      "creationTime": "2021-05-11T15:38:37.457907Z",
-      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "modificationTime": "2021-06-14T15:30:57.315709Z",
       "publicationTime": "2021-05-11T15:38:36.815857Z",
       "disclosureTime": "2021-05-10T16:15:00Z",
       "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
@@ -3046,88 +3002,6 @@
       "version": "247.3-3ubuntu3"
     },
     {
-      "title": "Information Exposure",
-      "credit": [
-        ""
-      ],
-      "packageName": "systemd",
-      "language": "linux",
-      "packageManager": "ubuntu:21.04",
-      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
-      "identifiers": {
-        "ALTERNATIVE": [],
-        "CVE": [
-          "CVE-2018-20839"
-        ],
-        "CWE": [
-          "CWE-200"
-        ]
-      },
-      "severity": "medium",
-      "severityWithCritical": "medium",
-      "cvssScore": 9.8,
-      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "patches": [],
-      "references": [
-        {
-          "title": "Debian Security Tracker",
-          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
-        },
-        {
-          "title": "GitHub Commit",
-          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
-        },
-        {
-          "title": "GitHub PR",
-          "url": "https://github.com/systemd/systemd/pull/12378"
-        },
-        {
-          "title": "MISC",
-          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
-        },
-        {
-          "title": "MLIST",
-          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
-        },
-        {
-          "title": "Netapp Security Advisory",
-          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
-        },
-        {
-          "title": "Security Focus",
-          "url": "http://www.securityfocus.com/bid/108389"
-        },
-        {
-          "title": "Ubuntu CVE Tracker",
-          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
-        }
-      ],
-      "creationTime": "2021-04-27T04:12:42.709856Z",
-      "modificationTime": "2021-05-09T12:30:27.173616Z",
-      "publicationTime": "2019-05-17T04:29:00Z",
-      "disclosureTime": "2019-05-17T04:29:00Z",
-      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
-      "nvdSeverity": "critical",
-      "relativeImportance": "medium",
-      "semver": {
-        "vulnerable": [
-          "*"
-        ]
-      },
-      "exploit": "Not Defined",
-      "from": [
-        "docker-image|ubuntu@21.04",
-        "apt@2.2.3",
-        "apt/libapt-pkg6.0@2.2.3",
-        "systemd/libsystemd0@247.3-3ubuntu3"
-      ],
-      "upgradePath": [],
-      "isUpgradable": false,
-      "isPatchable": false,
-      "name": "systemd/libsystemd0",
-      "version": "247.3-3ubuntu3"
-    },
-    {
       "title": "Authentication Bypass",
       "credit": [
         ""
@@ -3161,7 +3035,7 @@
         }
       ],
       "creationTime": "2021-05-11T15:38:37.457907Z",
-      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "modificationTime": "2021-06-14T15:30:57.315709Z",
       "publicationTime": "2021-05-11T15:38:36.815857Z",
       "disclosureTime": "2021-05-10T16:15:00Z",
       "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
@@ -3186,88 +3060,6 @@
       "version": "247.3-3ubuntu3"
     },
     {
-      "title": "Information Exposure",
-      "credit": [
-        ""
-      ],
-      "packageName": "systemd",
-      "language": "linux",
-      "packageManager": "ubuntu:21.04",
-      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
-      "identifiers": {
-        "ALTERNATIVE": [],
-        "CVE": [
-          "CVE-2018-20839"
-        ],
-        "CWE": [
-          "CWE-200"
-        ]
-      },
-      "severity": "medium",
-      "severityWithCritical": "medium",
-      "cvssScore": 9.8,
-      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "patches": [],
-      "references": [
-        {
-          "title": "Debian Security Tracker",
-          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
-        },
-        {
-          "title": "GitHub Commit",
-          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
-        },
-        {
-          "title": "GitHub PR",
-          "url": "https://github.com/systemd/systemd/pull/12378"
-        },
-        {
-          "title": "MISC",
-          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
-        },
-        {
-          "title": "MLIST",
-          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
-        },
-        {
-          "title": "Netapp Security Advisory",
-          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
-        },
-        {
-          "title": "Security Focus",
-          "url": "http://www.securityfocus.com/bid/108389"
-        },
-        {
-          "title": "Ubuntu CVE Tracker",
-          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
-        }
-      ],
-      "creationTime": "2021-04-27T04:12:42.709856Z",
-      "modificationTime": "2021-05-09T12:30:27.173616Z",
-      "publicationTime": "2019-05-17T04:29:00Z",
-      "disclosureTime": "2019-05-17T04:29:00Z",
-      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
-      "nvdSeverity": "critical",
-      "relativeImportance": "medium",
-      "semver": {
-        "vulnerable": [
-          "*"
-        ]
-      },
-      "exploit": "Not Defined",
-      "from": [
-        "docker-image|ubuntu@21.04",
-        "util-linux/mount@2.36.1-7ubuntu2",
-        "util-linux@2.36.1-7ubuntu2",
-        "systemd/libsystemd0@247.3-3ubuntu3"
-      ],
-      "upgradePath": [],
-      "isUpgradable": false,
-      "isPatchable": false,
-      "name": "systemd/libsystemd0",
-      "version": "247.3-3ubuntu3"
-    },
-    {
       "title": "Authentication Bypass",
       "credit": [
         ""
@@ -3301,7 +3093,7 @@
         }
       ],
       "creationTime": "2021-05-11T15:38:37.457907Z",
-      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "modificationTime": "2021-06-14T15:30:57.315709Z",
       "publicationTime": "2021-05-11T15:38:36.815857Z",
       "disclosureTime": "2021-05-10T16:15:00Z",
       "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
@@ -3326,86 +3118,6 @@
       "version": "247.3-3ubuntu3"
     },
     {
-      "title": "Information Exposure",
-      "credit": [
-        ""
-      ],
-      "packageName": "systemd",
-      "language": "linux",
-      "packageManager": "ubuntu:21.04",
-      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
-      "identifiers": {
-        "ALTERNATIVE": [],
-        "CVE": [
-          "CVE-2018-20839"
-        ],
-        "CWE": [
-          "CWE-200"
-        ]
-      },
-      "severity": "medium",
-      "severityWithCritical": "medium",
-      "cvssScore": 9.8,
-      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "patches": [],
-      "references": [
-        {
-          "title": "Debian Security Tracker",
-          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
-        },
-        {
-          "title": "GitHub Commit",
-          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
-        },
-        {
-          "title": "GitHub PR",
-          "url": "https://github.com/systemd/systemd/pull/12378"
-        },
-        {
-          "title": "MISC",
-          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
-        },
-        {
-          "title": "MLIST",
-          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
-        },
-        {
-          "title": "Netapp Security Advisory",
-          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
-        },
-        {
-          "title": "Security Focus",
-          "url": "http://www.securityfocus.com/bid/108389"
-        },
-        {
-          "title": "Ubuntu CVE Tracker",
-          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
-        }
-      ],
-      "creationTime": "2021-04-27T04:12:42.709856Z",
-      "modificationTime": "2021-05-09T12:30:27.173616Z",
-      "publicationTime": "2019-05-17T04:29:00Z",
-      "disclosureTime": "2019-05-17T04:29:00Z",
-      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
-      "nvdSeverity": "critical",
-      "relativeImportance": "medium",
-      "semver": {
-        "vulnerable": [
-          "*"
-        ]
-      },
-      "exploit": "Not Defined",
-      "from": [
-        "docker-image|ubuntu@21.04",
-        "systemd/libudev1@247.3-3ubuntu3"
-      ],
-      "upgradePath": [],
-      "isUpgradable": false,
-      "isPatchable": false,
-      "name": "systemd/libudev1",
-      "version": "247.3-3ubuntu3"
-    },
-    {
       "title": "Authentication Bypass",
       "credit": [
         ""
@@ -3439,7 +3151,7 @@
         }
       ],
       "creationTime": "2021-05-11T15:38:37.457907Z",
-      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "modificationTime": "2021-06-14T15:30:57.315709Z",
       "publicationTime": "2021-05-11T15:38:36.815857Z",
       "disclosureTime": "2021-05-10T16:15:00Z",
       "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
@@ -3462,88 +3174,6 @@
       "version": "247.3-3ubuntu3"
     },
     {
-      "title": "Information Exposure",
-      "credit": [
-        ""
-      ],
-      "packageName": "systemd",
-      "language": "linux",
-      "packageManager": "ubuntu:21.04",
-      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
-      "identifiers": {
-        "ALTERNATIVE": [],
-        "CVE": [
-          "CVE-2018-20839"
-        ],
-        "CWE": [
-          "CWE-200"
-        ]
-      },
-      "severity": "medium",
-      "severityWithCritical": "medium",
-      "cvssScore": 9.8,
-      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "patches": [],
-      "references": [
-        {
-          "title": "Debian Security Tracker",
-          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
-        },
-        {
-          "title": "GitHub Commit",
-          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
-        },
-        {
-          "title": "GitHub PR",
-          "url": "https://github.com/systemd/systemd/pull/12378"
-        },
-        {
-          "title": "MISC",
-          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
-        },
-        {
-          "title": "MLIST",
-          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
-        },
-        {
-          "title": "Netapp Security Advisory",
-          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
-        },
-        {
-          "title": "Security Focus",
-          "url": "http://www.securityfocus.com/bid/108389"
-        },
-        {
-          "title": "Ubuntu CVE Tracker",
-          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
-        }
-      ],
-      "creationTime": "2021-04-27T04:12:42.709856Z",
-      "modificationTime": "2021-05-09T12:30:27.173616Z",
-      "publicationTime": "2019-05-17T04:29:00Z",
-      "disclosureTime": "2019-05-17T04:29:00Z",
-      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
-      "nvdSeverity": "critical",
-      "relativeImportance": "medium",
-      "semver": {
-        "vulnerable": [
-          "*"
-        ]
-      },
-      "exploit": "Not Defined",
-      "from": [
-        "docker-image|ubuntu@21.04",
-        "apt@2.2.3",
-        "apt/libapt-pkg6.0@2.2.3",
-        "systemd/libudev1@247.3-3ubuntu3"
-      ],
-      "upgradePath": [],
-      "isUpgradable": false,
-      "isPatchable": false,
-      "name": "systemd/libudev1",
-      "version": "247.3-3ubuntu3"
-    },
-    {
       "title": "Authentication Bypass",
       "credit": [
         ""
@@ -3577,7 +3207,7 @@
         }
       ],
       "creationTime": "2021-05-11T15:38:37.457907Z",
-      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "modificationTime": "2021-06-14T15:30:57.315709Z",
       "publicationTime": "2021-05-11T15:38:36.815857Z",
       "disclosureTime": "2021-05-10T16:15:00Z",
       "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
@@ -3602,88 +3232,6 @@
       "version": "247.3-3ubuntu3"
     },
     {
-      "title": "Information Exposure",
-      "credit": [
-        ""
-      ],
-      "packageName": "systemd",
-      "language": "linux",
-      "packageManager": "ubuntu:21.04",
-      "description": "## NVD Description\n<i> **Note:** </i>\n<i> Versions mentioned in the description apply to the upstream `systemd` package. </i>\n\nsystemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled.\n## Remediation\nThere is no fixed version for `Ubuntu:21.04` `systemd`.\n## References\n- [Debian Security Tracker](https://security-tracker.debian.org/tracker/CVE-2018-20839)\n- [GitHub Commit](https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f)\n- [GitHub PR](https://github.com/systemd/systemd/pull/12378)\n- [MISC](https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1803993)\n- [MLIST](https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E)\n- [Netapp Security Advisory](https://security.netapp.com/advisory/ntap-20190530-0002/)\n- [Security Focus](http://www.securityfocus.com/bid/108389)\n- [Ubuntu CVE Tracker](http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839)\n",
-      "identifiers": {
-        "ALTERNATIVE": [],
-        "CVE": [
-          "CVE-2018-20839"
-        ],
-        "CWE": [
-          "CWE-200"
-        ]
-      },
-      "severity": "medium",
-      "severityWithCritical": "medium",
-      "cvssScore": 9.8,
-      "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "patches": [],
-      "references": [
-        {
-          "title": "Debian Security Tracker",
-          "url": "https://security-tracker.debian.org/tracker/CVE-2018-20839"
-        },
-        {
-          "title": "GitHub Commit",
-          "url": "https://github.com/systemd/systemd/commit/9725f1a10f80f5e0ae7d9b60547458622aeb322f"
-        },
-        {
-          "title": "GitHub PR",
-          "url": "https://github.com/systemd/systemd/pull/12378"
-        },
-        {
-          "title": "MISC",
-          "url": "https://bugs.launchpad.net/ubuntu/%2Bsource/systemd/%2Bbug/1803993"
-        },
-        {
-          "title": "MLIST",
-          "url": "https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E"
-        },
-        {
-          "title": "Netapp Security Advisory",
-          "url": "https://security.netapp.com/advisory/ntap-20190530-0002/"
-        },
-        {
-          "title": "Security Focus",
-          "url": "http://www.securityfocus.com/bid/108389"
-        },
-        {
-          "title": "Ubuntu CVE Tracker",
-          "url": "http://people.ubuntu.com/~ubuntu-security/cve/CVE-2018-20839"
-        }
-      ],
-      "creationTime": "2021-04-27T04:12:42.709856Z",
-      "modificationTime": "2021-05-09T12:30:27.173616Z",
-      "publicationTime": "2019-05-17T04:29:00Z",
-      "disclosureTime": "2019-05-17T04:29:00Z",
-      "id": "SNYK-UBUNTU2104-SYSTEMD-1268862",
-      "nvdSeverity": "critical",
-      "relativeImportance": "medium",
-      "semver": {
-        "vulnerable": [
-          "*"
-        ]
-      },
-      "exploit": "Not Defined",
-      "from": [
-        "docker-image|ubuntu@21.04",
-        "util-linux/mount@2.36.1-7ubuntu2",
-        "util-linux@2.36.1-7ubuntu2",
-        "systemd/libudev1@247.3-3ubuntu3"
-      ],
-      "upgradePath": [],
-      "isUpgradable": false,
-      "isPatchable": false,
-      "name": "systemd/libudev1",
-      "version": "247.3-3ubuntu3"
-    },
-    {
       "title": "Authentication Bypass",
       "credit": [
         ""
@@ -3717,7 +3265,7 @@
         }
       ],
       "creationTime": "2021-05-11T15:38:37.457907Z",
-      "modificationTime": "2021-06-03T03:31:59.622964Z",
+      "modificationTime": "2021-06-14T15:30:57.315709Z",
       "publicationTime": "2021-05-11T15:38:36.815857Z",
       "disclosureTime": "2021-05-10T16:15:00Z",
       "id": "SNYK-UBUNTU2104-SYSTEMD-1290725",
@@ -3817,13 +3365,98 @@
   ],
   "ok": false,
   "dependencyCount": 93,
+  "org": "chrisguest",
   "policy": "# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.\nversion: v1.19.0\nignore: {}\npatch: {}\n",
   "isPrivate": true,
-  "licensesPolicy": null,
+  "licensesPolicy": {
+    "severities": {},
+    "orgLicenseRules": {
+      "AGPL-1.0": {
+        "licenseType": "AGPL-1.0",
+        "severity": "high",
+        "instructions": ""
+      },
+      "AGPL-3.0": {
+        "licenseType": "AGPL-3.0",
+        "severity": "high",
+        "instructions": ""
+      },
+      "Artistic-1.0": {
+        "licenseType": "Artistic-1.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "Artistic-2.0": {
+        "licenseType": "Artistic-2.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "CDDL-1.0": {
+        "licenseType": "CDDL-1.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "CPOL-1.02": {
+        "licenseType": "CPOL-1.02",
+        "severity": "high",
+        "instructions": ""
+      },
+      "EPL-1.0": {
+        "licenseType": "EPL-1.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "GPL-2.0": {
+        "licenseType": "GPL-2.0",
+        "severity": "high",
+        "instructions": ""
+      },
+      "GPL-3.0": {
+        "licenseType": "GPL-3.0",
+        "severity": "high",
+        "instructions": ""
+      },
+      "LGPL-2.0": {
+        "licenseType": "LGPL-2.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "LGPL-2.1": {
+        "licenseType": "LGPL-2.1",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "LGPL-3.0": {
+        "licenseType": "LGPL-3.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "MPL-1.1": {
+        "licenseType": "MPL-1.1",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "MPL-2.0": {
+        "licenseType": "MPL-2.0",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "MS-RL": {
+        "licenseType": "MS-RL",
+        "severity": "medium",
+        "instructions": ""
+      },
+      "SimPL-2.0": {
+        "licenseType": "SimPL-2.0",
+        "severity": "high",
+        "instructions": ""
+      }
+    }
+  },
   "packageManager": "deb",
   "ignoreSettings": null,
   "docker": {},
-  "summary": "51 vulnerable dependency paths",
+  "summary": "47 vulnerable dependency paths",
   "filesystemPolicy": false,
   "filtered": {
     "ignore": [],
