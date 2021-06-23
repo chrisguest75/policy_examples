@@ -1,5 +1,5 @@
 # README
-Simple example to demonstrate how to use rego 
+Demonstrate using rego on `docker scan` output
 
 ## Docker Scan example
 ```sh
