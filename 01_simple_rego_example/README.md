@@ -31,7 +31,6 @@ servers[i].ports[_] == "p2"; id := servers[i].id
 
 package opa.example
 public_servers[x].protocols[_] == "http"
-
 ```
 
 Violations
@@ -43,6 +42,5 @@ violations[s] {
   public_servers[s]
 }
 ```
-
 
 # Resources  

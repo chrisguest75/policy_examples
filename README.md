@@ -6,7 +6,7 @@ TODO:
 * complex data types 
 
 ## Install and Configure
-Installation and configuration (tips for VSCode)
+Installation and configuration (tips for VSCode evaulation)
 Steps [README.md](./00_setup/README.md)  
 
 ## Example 1 - Simple rego example
