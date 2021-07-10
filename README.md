@@ -17,9 +17,13 @@ Steps [README.md](./01_simplpe_rego_example/README.md)
 Demonstrate a simple validation example  
 Steps [README.md](./02_validate_example/README.md)  
 
-## Example 3 - Docker Scan
+## Example 3 - Docker Scan (conftest)
 Demonstrate using rego on `docker scan` output  
 Steps [README.md](./03_conftest_docker_scan/README.md)  
+
+## Example 4 - Policy Unittests
+Demonstrate how to write rego tests  
+Steps [README.md](./04_tests/README.md)  
 
 # Resources
 * OPA get-started [here](https://www.openpolicyagent.org/docs/v0.11.0/get-started)  
