@@ -2,14 +2,36 @@
     "books": [
         {
             "id": 110,
+            "title": "Python for dummies",
             "language": "Python",
-            "price": 1900
+            "price": 1900,
+            "category": "Computing"
         },
         {
             "id": 111,
+            "title": "C++ for dummies",
             "language": "C++",
-            "price": -100
+            "price": 0,
+            "category": "Computing"
+
+        },
+        {
+            "id": 113,
+            "title": "Harry Potter",
+            "language": "English",
+            "price": 100,
+            "category": "Fiction"            
+        },
+        {
+            "id": 113,
+            "title": "Harry Potter (duplicate)",
+            "language": "English",
+            "price": 100,
+            "category": "Fiction"
+
             }
-        ]    
+    
+
+    ]    
 }
 

@@ -14,11 +14,11 @@ Simple example to demonstrate how to use rego
 Steps [README.md](./01_simplpe_rego_example/README.md)  
 
 ## Example 2 - Validation example
-Demonstrate a simple validation example
+Demonstrate a simple validation example 
 Steps [README.md](./02_validate_example/README.md)  
 
 ## Example 3 - Docker Scan
-Demonstrate using rego on `docker scan` output
+Demonstrate using rego on `docker scan` output  
 Steps [README.md](./03_conftest_docker_scan/README.md)  
 
 # Resources
