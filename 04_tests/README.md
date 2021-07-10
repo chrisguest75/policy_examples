@@ -1,19 +1,19 @@
 # README
-Demonstrate a simple validation example
+Demonstrate how to write rego tests
+
+TODO: 
+* Not working yet (all failing)
+* How do I inject file documents into tests?
 
 Follow instructions for using VSCode to test [here](../00_setup/README.md) 
 
 ## Quick start in vscode
 * Start `code` in policy folder
-* Select `policy.rego`
-* Cmd+Shift+P -> OPA: Evaluate package
+* Select `books_test.rego`
+* Cmd+Shift+P -> OPA: Test Workspace
 
 Demonstrates:
-* Setting up multiple rules
-* Checking values of fields
-
-## Try
-Try editing `books.rego` lowest_price value and running OPA 
+* Testing policies
 
 # Resources  
 * [policy-language](https://www.openpolicyagent.org/docs/latest/policy-language/)
