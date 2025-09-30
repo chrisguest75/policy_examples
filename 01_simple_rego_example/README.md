@@ -1,14 +1,17 @@
 # README
+
 Simple example to demonstrate how to use rego 
 
 TODO:
 * How do I load a data and policy document inside the repl?
+
 ## Start tutorial
 Following this [guide](https://www.openpolicyagent.org/docs/v0.11.0/get-started/)
 
 This example deviates from the original to offer a little more investigation.    
 
 ## Start repl
+
 ```sh
 # load the examples data and policy into repl
 opa run data.json example.rego   
@@ -21,6 +24,7 @@ opa.runtime()
 ```
 
 Investigate data documents
+
 ```sh
 # examine data
 data.servers[_].id
@@ -36,6 +40,7 @@ data.servers[_].id
 ```
 
 ## Indices
+
 ```sh
 # create index
 i := 0
@@ -50,6 +55,7 @@ data.servers[i]
 ```
 
 ## Packages and Imports
+
 ```sh
 # import the data.servers object to create a server object  
 import data.servers
@@ -60,6 +66,7 @@ public_servers[x].protocols[_] == "http"
 ```
 
 ## Violations
+
 ```
 import data.servers
 violations[s] {
@@ -70,5 +77,6 @@ violations[s] {
 violations[server] = _
 ```
 
-# Resources  
+## Resources
+
 * language-reference [here](https://www.openpolicyagent.org/docs/v0.11.0/language-reference/#net)
